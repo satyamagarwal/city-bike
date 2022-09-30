@@ -1,0 +1,22 @@
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+java_*.hprof
+
+# idea
+.idea
+.DS_Store
+*.iml
+
+# Log
+*.log
+logs/
+
+# Build
+build/
+out/
+
+#gradle
+.gradle
+
+# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
+!gradle-wrapper.jar
