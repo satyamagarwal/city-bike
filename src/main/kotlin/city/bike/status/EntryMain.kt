@@ -4,6 +4,7 @@ import io.ktor.server.engine.addShutdownHook
 import io.ktor.server.engine.embeddedServer
 import io.ktor.server.engine.stop
 import io.ktor.server.netty.Netty
+import io.ktor.server.netty.NettyApplicationEngine
 import org.slf4j.Logger
 import org.slf4j.LoggerFactory
 import java.util.concurrent.TimeUnit
@@ -11,7 +12,7 @@ import java.util.concurrent.TimeUnit
 val MAIN_LOGGER: Logger = LoggerFactory.getLogger("Main")
 
 fun main() {
-    val server = embeddedServer(
+    val server: NettyApplicationEngine = embeddedServer(
         factory = Netty,
         port = 8080,
         host = "0.0.0.0",

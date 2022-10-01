@@ -7,13 +7,14 @@ sealed class DomainError(
     throwable: Throwable? = null
 ) : Throwable(cause = throwable, message = msg) {
 
+    data class InternalAppError(val reason: String) : DomainError(msg = reason)
+
     data class BackendBadResponse(val reason: String? = null, val throwable: Throwable? = null) :
         DomainError(msg = reason, throwable = throwable)
 
     data class BackendInvalidRequest(val throwable: Throwable) : DomainError(throwable = throwable)
     data class BackendFatalError(val throwable: Throwable) : DomainError(throwable = throwable)
     data class BackendResponseParsingFailed(val throwable: Throwable) : DomainError(throwable = throwable)
-    data class NotFound(val key: String, val value: Any? = null) : DomainError("$key: $value")
     data class InvalidData(val errors: Nel<String>) : DomainError(
         msg = "Errors: ${errors.joinToString(", ", "[", "]")}"
     )

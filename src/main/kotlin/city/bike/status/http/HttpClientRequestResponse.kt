@@ -3,13 +3,6 @@ package city.bike.status.http
 import arrow.core.handleErrorWith
 import arrow.core.left
 import city.bike.status.app.DomainError
-import com.fasterxml.jackson.core.JsonProcessingException
-import com.fasterxml.jackson.databind.JsonMappingException
-import io.github.resilience4j.circuitbreaker.CallNotPermittedException
-import io.ktor.client.plugins.ClientRequestException
-import io.ktor.client.plugins.ServerResponseException
-import io.ktor.http.HttpStatusCode.Companion.ServiceUnavailable
-import kotlinx.coroutines.TimeoutCancellationException
 import city.bike.status.app.DomainError.BackendBadResponse
 import city.bike.status.app.DomainError.BackendCallNotPermitted
 import city.bike.status.app.DomainError.BackendFatalError
@@ -18,6 +11,13 @@ import city.bike.status.app.DomainError.BackendResponseParsingFailed
 import city.bike.status.app.DomainError.BackendServerDown
 import city.bike.status.app.DomainError.BackendTimedOut
 import city.bike.status.app.ErrorOr
+import com.fasterxml.jackson.core.JsonProcessingException
+import com.fasterxml.jackson.databind.JsonMappingException
+import io.github.resilience4j.circuitbreaker.CallNotPermittedException
+import io.ktor.client.plugins.ClientRequestException
+import io.ktor.client.plugins.ServerResponseException
+import io.ktor.http.HttpStatusCode.Companion.ServiceUnavailable
+import kotlinx.coroutines.TimeoutCancellationException
 import org.slf4j.Logger
 import org.slf4j.LoggerFactory
 

@@ -2,6 +2,7 @@ package city.bike.status.http
 
 import arrow.core.Either
 import city.bike.status.app.ErrorOr
+import city.bike.status.http.HttpSetup.circuitBreakerRegistry
 import io.github.resilience4j.circuitbreaker.CircuitBreaker
 import io.github.resilience4j.kotlin.circuitbreaker.executeSuspendFunction
 import io.ktor.client.call.body
@@ -10,7 +11,6 @@ import io.ktor.client.request.HttpRequestBuilder
 import io.ktor.client.request.request
 import kotlinx.coroutines.Dispatchers.IO
 import kotlinx.coroutines.withContext
-import city.bike.status.http.HttpSetup.circuitBreakerRegistry
 
 data class HttpClientTimeoutInput(
     val connectionTimeout: Long,

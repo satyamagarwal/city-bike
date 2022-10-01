@@ -30,8 +30,9 @@ class RealTimeApiClientInstance(
     override suspend fun getStationInfoAndStatus(): ErrorOr<Nel<StationAndStatus>> {
         return parZip(
             { stationInformation() },
-            { stationStatus() }
-        ) { info, status -> info.flatMap { i -> status.map { s -> i to s } } }
+            { stationStatus() },
+            { info, status -> info.flatMap { i -> status.map { s -> i to s } } }
+        )
             .flatMap { (info, status) ->
                 val infoById: Map<String, Station> = info.data.stations.associateBy { it.stationId }
                 val statusById: Map<String, Status> = status.data.stations.associateBy { it.stationId }

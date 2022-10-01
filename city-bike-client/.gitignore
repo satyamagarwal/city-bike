@@ -1,0 +1,16 @@
+# Logs
+logs
+*.log
+pnpm-debug.log*
+
+node_modules
+.DS_Store
+dist
+coverage
+*.local
+
+/cypress/videos/
+/cypress/screenshots/
+
+# Editor directories and files
+.idea

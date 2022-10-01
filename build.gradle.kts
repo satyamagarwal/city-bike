@@ -1,8 +1,9 @@
 import com.diffplug.gradle.spotless.SpotlessExtension
+import com.github.jengelman.gradle.plugins.shadow.tasks.ShadowJar
+import com.github.jengelman.gradle.plugins.shadow.transformers.Log4j2PluginsCacheFileTransformer
 import io.gitlab.arturbosch.detekt.Detekt
 import io.gitlab.arturbosch.detekt.extensions.DetektExtension
 import org.gradle.api.tasks.testing.logging.TestExceptionFormat
-import java.io.ByteArrayOutputStream
 
 val arrowKtVersion: String by project
 val config4kVersion: String by project
@@ -22,6 +23,7 @@ val slf4jVersion: String by project
 
 plugins {
     id("com.diffplug.spotless")
+    id("com.github.johnrengelman.shadow")
     id("io.gitlab.arturbosch.detekt")
     jacoco
     kotlin("jvm")
@@ -43,6 +45,7 @@ dependencies {
     implementation("io.arrow-kt:arrow-fx-coroutines:$arrowKtVersion")
 
     implementation("io.github.config4k:config4k:$config4kVersion")
+
     implementation("io.github.resilience4j:resilience4j-circuitbreaker:$resilience4jVersion")
     implementation("io.github.resilience4j:resilience4j-kotlin:$resilience4jVersion")
 
@@ -50,8 +53,11 @@ dependencies {
     implementation("io.ktor:ktor-client-content-negotiation-jvm:$ktorVersion")
     implementation("io.ktor:ktor-http-jvm:$ktorVersion")
     implementation("io.ktor:ktor-serialization-jackson-jvm:$ktorVersion")
+    implementation("io.ktor:ktor-server-call-logging-jvm:$ktorVersion")
     implementation("io.ktor:ktor-server-content-negotiation-jvm:$ktorVersion")
     implementation("io.ktor:ktor-server-core-jvm:$ktorVersion")
+    implementation("io.ktor:ktor-server-cors:$ktorVersion")
+    implementation("io.ktor:ktor-server-double-receive:$ktorVersion")
     implementation("io.ktor:ktor-server-netty-jvm:$ktorVersion")
 
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:$coroutinesVersion")
@@ -111,6 +117,38 @@ configurations {
 }
 
 tasks {
+    register<Exec>("installNodeModules") {
+        workingDir = file("city-bike-client")
+        commandLine = listOf("pnpm", "install")
+    }
+
+    val buildClient: TaskProvider<Exec> by registering(Exec::class) {
+        workingDir = file("city-bike-client")
+        commandLine = listOf("pnpm", "build")
+    }
+
+    val deleteDistFolder: TaskProvider<Delete> by registering(Delete::class) {
+        delete(file("src/main/resources/dist"))
+    }
+
+    register<Copy>("copyDistFolder") {
+        dependsOn(buildClient, deleteDistFolder)
+
+        from(file("city-bike-client/dist"))
+        into(file("src/main/resources/dist"))
+    }
+
+    withType<ShadowJar> {
+        transform(Log4j2PluginsCacheFileTransformer())
+    }
+
+    withType<Jar> {
+        manifest {
+            attributes["Main-Class"] = "city.bike.status.EntryMainKt"
+            attributes["Multi-Release"] = "true"
+        }
+    }
+
     withType<Wrapper> {
         gradleVersion = gradleWrapperVersion
         distributionType = Wrapper.DistributionType.ALL
@@ -132,8 +170,6 @@ tasks {
 
     withType<Test> {
         useJUnitPlatform()
-
-        finalizedBy("jacocoTestReport")
 
         systemProperties = mapOf(
             "junit.jupiter.extensions.autodetection.enabled" to "true",
@@ -159,16 +195,4 @@ tasks {
             xml.required.set(true)
         }
     }
-}
-
-fun execCommand(command: List<String>, ignoreError: Boolean = false): String {
-    val buffer = ByteArrayOutputStream()
-
-    project.exec {
-        commandLine(command)
-        standardOutput = buffer
-        isIgnoreExitValue = ignoreError
-    }
-
-    return String(buffer.toByteArray()).trim()
 }

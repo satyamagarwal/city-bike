@@ -5,6 +5,7 @@ import java.time.Instant
 
 @JvmInline
 value class Latitude(private val lat: Double)
+
 @JvmInline
 value class Longitude(private val lon: Double)
 
@@ -67,10 +68,9 @@ data class Status(
         returning = returning,
         reported = reported,
         numBikesAvailable = numBikesAvailable,
-        numDocksAvailable = numDocksAvailable,
+        numDocksAvailable = numDocksAvailable
     )
 }
-
 
 data class StationInformation(val stations: List<Station>)
 
