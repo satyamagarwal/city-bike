@@ -1,5 +1,4 @@
 # Oslo bysykkel
-___
 
 ### Forutsetninger :
 
