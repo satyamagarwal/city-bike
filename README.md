@@ -9,7 +9,7 @@
 * Last ned jdk 18.
     * Kjør `brew install --cask temurin`, eller sjekk https://adoptium.net/en-GB/temurin/releases/?version=18
     * Husk at `JAVA_HOME` bør settes til å bruke `jdk18`.
-* Clone prosjekt lokalt med `git clone`.
+* Clone prosjekt lokalt med `git clone git@github.com:satyamagarwal/city-bike.git`.
 
 ### Kjøre app med fat jar
 
