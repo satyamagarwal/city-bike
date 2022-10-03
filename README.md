@@ -1,6 +1,10 @@
 # Oslo bysykkel
 
-### Forutsetninger :
+## Forhåndsvising
+
+![Bilde](/media/app-preview.png?raw=true)
+
+## Forutsetninger :
 
 * Last ned `node`. 
     * Kjøre feks `brew instll node`, eller sjekk https://nodejs.org/en/download/
