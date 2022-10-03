@@ -19,14 +19,14 @@
 
 * `cd <path-to-dir-holding-repository>/city-bike`
 * `./gradlew clean installNodeModules copyDistFolder build shadowJar` 
-* `java "-Dlog4j2.level=INFO" "-Denv=prod" -jar <path-to-dir-holding-repository>/city-bike/build/libs/city-bike-all.jar`
+* `java "-Dlog4j2.level=INFO" "-Denv=prod" -jar build/libs/city-bike-all.jar`
 
 ### Kjøre app i development mode
 
 Dette oppsett antar at man bruker Intellij idea. 
 
 * Åpne repo directory i intellij
-* Kjøre `<path-to-dir-holding-repository>/src/main/kotlin/city/bike/status/EntryMain.kt` file. Da kjøres backend server som serverer på `http://localhost:8080` 
+* Kjøre `src/main/kotlin/city/bike/status/EntryMain.kt` file. Da kjøres backend server som serverer på `http://localhost:8080` 
 * `cd city-bike-client`
 * `pnpm install`
 * `pnpm build`
