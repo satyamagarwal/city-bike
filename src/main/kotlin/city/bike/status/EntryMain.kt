@@ -1,5 +1,6 @@
 package city.bike.status
 
+import city.bike.status.app.Environment
 import io.ktor.server.engine.addShutdownHook
 import io.ktor.server.engine.embeddedServer
 import io.ktor.server.engine.stop
@@ -10,6 +11,11 @@ import org.slf4j.LoggerFactory
 import java.util.concurrent.TimeUnit
 
 val MAIN_LOGGER: Logger = LoggerFactory.getLogger("Main")
+val ENV: Environment = System
+    .getProperty("env")
+    ?.takeIf { it == "prod" }
+    ?.let { Environment.Prod }
+    ?: Environment.Local
 
 fun main() {
     val server: NettyApplicationEngine = embeddedServer(
