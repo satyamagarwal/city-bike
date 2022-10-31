@@ -69,6 +69,9 @@ dependencies {
     runtimeOnly("org.apache.logging.log4j:log4j-slf4j2-impl:$log4jVersion")
     runtimeOnly("org.apache.logging.log4j:log4j-core:$log4jVersion")
 
+    testImplementation("io.ktor:ktor-client-mock-jvm:$ktorVersion")
+    testImplementation("io.ktor:ktor-server-test-host-jvm:$ktorVersion")
+
     testImplementation("io.kotest:kotest-assertions-core-jvm:$kotestVersion")
     testImplementation("io.kotest:kotest-runner-junit5:$kotestVersion")
 }
@@ -170,15 +173,6 @@ tasks {
 
     withType<Test> {
         useJUnitPlatform()
-
-        systemProperties = mapOf(
-            "junit.jupiter.extensions.autodetection.enabled" to "true",
-            "junit.jupiter.execution.parallel.enabled" to "true",
-            "junit.jupiter.execution.parallel.mode.default" to "concurrent",
-            "junit.jupiter.execution.parallel.mode.classes.default" to "concurrent",
-            "junit.platform.output.capture.stdout" to "true",
-            "junit.platform.output.capture.stderr" to "true"
-        )
 
         testLogging {
             events("passed", "skipped", "failed")

@@ -1,5 +1,6 @@
 package city.bike.status.realtime
 
+import com.fasterxml.jackson.annotation.JsonCreator
 import com.fasterxml.jackson.annotation.JsonProperty
 import java.time.Instant
 
@@ -9,7 +10,14 @@ value class Latitude(private val lat: Double)
 @JvmInline
 value class Longitude(private val lon: Double)
 
-data class Location(val lat: Latitude, val long: Longitude)
+data class Location(val lat: Latitude, val long: Longitude) {
+
+    companion object {
+        @JvmStatic
+        @JsonCreator
+        fun create(lat: Double, long: Double) = Location(Latitude(lat), Longitude(long))
+    }
+}
 
 data class StandStatus(
     val installed: Int,

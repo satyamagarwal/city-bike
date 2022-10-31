@@ -1,8 +1,8 @@
 package city.bike.status.app
 
 import arrow.core.Nel
-import city.bike.status.app.DomainError.InternalAppError
 import city.bike.status.app.DomainError.InvalidData
+import city.bike.status.app.DomainError.LogicalError
 import city.bike.status.app.DomainResponse.Companion.domainResponseLog
 import city.bike.status.app.DomainResponse.DomainErrorResponse
 import city.bike.status.app.DomainResponse.DomainSuccessResponse
@@ -50,7 +50,7 @@ inline fun <reified A : Any> ErrorOr<A>.toResponse(successStatus: Int = OK.value
 fun createFailDomainResponse(error: Throwable): DomainErrorResponse =
     when (error) {
         is InvalidData -> DomainErrorResponse(BadRequest, invalidUserInput(error.errors))
-        is InternalAppError -> DomainErrorResponse(InternalServerError, internalServerError(error.reason))
+        is LogicalError -> DomainErrorResponse(InternalServerError, internalServerError(error.errors))
         else -> {
             domainResponseLog.error("Unexpected failure", error)
 
@@ -64,10 +64,10 @@ data class ErrorMessage(
     val code: String?
 ) {
     companion object {
-        fun internalServerError(msg: String?) =
-            ErrorMessage("Internal Server Error", listOfNotNull(msg), null)
+        fun internalServerError(errors: Nel<String>): ErrorMessage =
+            ErrorMessage("Internal Server Error", errors = errors.toList(), null)
 
-        fun invalidUserInput(errors: Nel<String>) =
+        fun invalidUserInput(errors: Nel<String>): ErrorMessage =
             ErrorMessage(description = "Invalid user input", errors = errors.toList(), code = null)
     }
 }

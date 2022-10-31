@@ -7,7 +7,7 @@
 ## Forutsetninger :
 
 * Last ned `node`. 
-    * Kjøre feks `brew instll node`, eller sjekk https://nodejs.org/en/download/
+    * Kjøre feks `brew install node`, eller sjekk https://nodejs.org/en/download/
 * Last ned `pnpm`.
     * Kjøre feks `brew install pnpm`, eller sjekk https://pnpm.io/installation
 * Last ned jdk 18.
@@ -20,6 +20,7 @@
 * `cd <path-to-dir-holding-repository>/city-bike`
 * `./gradlew clean installNodeModules copyDistFolder build shadowJar` 
 * `java "-Dlog4j2.level=INFO" "-Denv=prod" -jar build/libs/city-bike-all.jar`
+* Besøk http://localhost:8080
 
 ### Kjøre app i development mode
 
