@@ -1,0 +1,5122 @@
+[
+  {
+    "id": "2351",
+    "info": {
+      "name": "Sogn Studentby",
+      "address": "Jon P Erliens vei 1",
+      "capacity": 18,
+      "location": {
+        "lat": 59.95208441268443,
+        "long": 10.727852791011173
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 0,
+      "numDocksAvailable": 18
+    }
+  },
+  {
+    "id": "2350",
+    "info": {
+      "name": "Blindern T-Bane",
+      "address": "Apalveien 60",
+      "capacity": 25,
+      "location": {
+        "lat": 59.94022899411701,
+        "long": 10.716856460117071
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 5,
+      "numDocksAvailable": 19
+    }
+  },
+  {
+    "id": "2349",
+    "info": {
+      "name": "Maritimt Museum",
+      "address": "Bygdøynesveien 37",
+      "capacity": 21,
+      "location": {
+        "lat": 59.902942924651484,
+        "long": 10.698048967006343
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 2,
+      "numDocksAvailable": 19
+    }
+  },
+  {
+    "id": "2347",
+    "info": {
+      "name": "Huk 2",
+      "address": "Strømsborgveien 48",
+      "capacity": 30,
+      "location": {
+        "lat": 59.89843428245928,
+        "long": 10.674398461025874
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 4,
+      "numDocksAvailable": 26
+    }
+  },
+  {
+    "id": "2340",
+    "info": {
+      "name": "Tiedemannsparken",
+      "address": "Hovinveien 43",
+      "capacity": 25,
+      "location": {
+        "lat": 59.92024767905539,
+        "long": 10.793540704010042
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 1,
+      "numDocksAvailable": 24
+    }
+  },
+  {
+    "id": "2339",
+    "info": {
+      "name": "Elgsletta",
+      "address": "Norbygata 2",
+      "capacity": 30,
+      "location": {
+        "lat": 59.91564920880896,
+        "long": 10.761724502548105
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 12,
+      "numDocksAvailable": 16
+    }
+  },
+  {
+    "id": "2337",
+    "info": {
+      "name": "Universitetsgata",
+      "address": "Universitetsgata 18",
+      "capacity": 15,
+      "location": {
+        "lat": 59.91591543378553,
+        "long": 10.737834990277321
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 11,
+      "numDocksAvailable": 4
+    }
+  },
+  {
+    "id": "2334",
+    "info": {
+      "name": "Nybrua holdeplass",
+      "address": "Storgata 53a",
+      "capacity": 12,
+      "location": {
+        "lat": 59.916544926082935,
+        "long": 10.757428972017067
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 5,
+      "numDocksAvailable": 7
+    }
+  },
+  {
+    "id": "2333",
+    "info": {
+      "name": "Akerselvallmenningen",
+      "address": "Nylandsveien",
+      "capacity": 15,
+      "location": {
+        "lat": 59.90725889890288,
+        "long": 10.754884663589621
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 13,
+      "numDocksAvailable": 2
+    }
+  },
+  {
+    "id": "2332",
+    "info": {
+      "name": "Krohgstøtten hospital",
+      "address": "Storgata 38",
+      "capacity": 12,
+      "location": {
+        "lat": 59.91629601075576,
+        "long": 10.757376666842816
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 11,
+      "numDocksAvailable": 1
+    }
+  },
+  {
+    "id": "2330",
+    "info": {
+      "name": "Stjerneplassen",
+      "address": "Storgata 10a",
+      "capacity": 15,
+      "location": {
+        "lat": 59.91323316606503,
+        "long": 10.749958763650312
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 14,
+      "numDocksAvailable": 1
+    }
+  },
+  {
+    "id": "2329",
+    "info": {
+      "name": "Via Vika",
+      "address": "Dronning Mauds gate 10",
+      "capacity": 15,
+      "location": {
+        "lat": 59.91271286014364,
+        "long": 10.727170827087008
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 6,
+      "numDocksAvailable": 9
+    }
+  },
+  {
+    "id": "2328",
+    "info": {
+      "name": "The Hub",
+      "address": "Biskop Gunnerus Gate 3",
+      "capacity": 21,
+      "location": {
+        "lat": 59.912522370233745,
+        "long": 10.750910185807754
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 10,
+      "numDocksAvailable": 11
+    }
+  },
+  {
+    "id": "2315",
+    "info": {
+      "name": "Rostockgata",
+      "address": "Rostockgata 5",
+      "capacity": 18,
+      "location": {
+        "lat": 59.90691970255054,
+        "long": 10.760311802881915
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 4,
+      "numDocksAvailable": 12
+    }
+  },
+  {
+    "id": "2309",
+    "info": {
+      "name": "Ulven Torg",
+      "address": "Ulvenveien 89",
+      "capacity": 30,
+      "location": {
+        "lat": 59.92472050943934,
+        "long": 10.810727302805304
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 2,
+      "numDocksAvailable": 27
+    }
+  },
+  {
+    "id": "2308",
+    "info": {
+      "name": "Gunerius",
+      "address": "Storgata 33",
+      "capacity": 12,
+      "location": {
+        "lat": 59.91459878869395,
+        "long": 10.753398500006654
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 4,
+      "numDocksAvailable": 7
+    }
+  },
+  {
+    "id": "2307",
+    "info": {
+      "name": "Domus Athletica",
+      "address": "Trimveien 4",
+      "capacity": 30,
+      "location": {
+        "lat": 59.946219381760216,
+        "long": 10.724626314653563
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 1,
+      "numDocksAvailable": 29
+    }
+  },
+  {
+    "id": "2306",
+    "info": {
+      "name": "Økern Portal",
+      "address": "Lørenfaret 1",
+      "capacity": 18,
+      "location": {
+        "lat": 59.930903961728745,
+        "long": 10.80193969590286
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 0,
+      "numDocksAvailable": 18
+    }
+  },
+  {
+    "id": "2305",
+    "info": {
+      "name": "Hesselbergs Gate",
+      "address": "Toftes Gate 24",
+      "capacity": 15,
+      "location": {
+        "lat": 59.92774803110845,
+        "long": 10.761265771390583
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 7,
+      "numDocksAvailable": 8
+    }
+  },
+  {
+    "id": "2304",
+    "info": {
+      "name": "Hedmarksgata",
+      "address": "Elverumsgata - Hedmarksgata",
+      "capacity": 18,
+      "location": {
+        "lat": 59.91178403655783,
+        "long": 10.783884345957915
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 1,
+      "numDocksAvailable": 17
+    }
+  },
+  {
+    "id": "2280",
+    "info": {
+      "name": "Klingenberggata",
+      "address": "Olav Vs Gate 5",
+      "capacity": 15,
+      "location": {
+        "lat": 59.913150534075015,
+        "long": 10.732281291700133
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 11,
+      "numDocksAvailable": 3
+    }
+  },
+  {
+    "id": "2270",
+    "info": {
+      "name": "Lørenporten",
+      "address": "Lørenveien 63",
+      "capacity": 20,
+      "location": {
+        "lat": 59.928710966693274,
+        "long": 10.799914801820819
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 16,
+      "numDocksAvailable": 4
+    }
+  },
+  {
+    "id": "1919",
+    "info": {
+      "name": "Kværnerveien",
+      "address": "Kværnerveien 5",
+      "capacity": 6,
+      "location": {
+        "lat": 59.90591083488326,
+        "long": 10.778592132296495
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 0,
+      "numDocksAvailable": 6
+    }
+  },
+  {
+    "id": "1755",
+    "info": {
+      "name": "Aker Brygge",
+      "address": "Aker Brygge",
+      "capacity": 33,
+      "location": {
+        "lat": 59.91118372188379,
+        "long": 10.730034556850455
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 15,
+      "numDocksAvailable": 16
+    }
+  },
+  {
+    "id": "1101",
+    "info": {
+      "name": "Stortingstunellen",
+      "address": "Rådhusgata 34",
+      "capacity": 24,
+      "location": {
+        "lat": 59.91065301806209,
+        "long": 10.737365277561025
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 6,
+      "numDocksAvailable": 18
+    }
+  },
+  {
+    "id": "1023",
+    "info": {
+      "name": "Professor Aschehougs plass",
+      "address": "Professor Aschehougs plass",
+      "capacity": 15,
+      "location": {
+        "lat": 59.9147672,
+        "long": 10.740971
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 2,
+      "numDocksAvailable": 13
+    }
+  },
+  {
+    "id": "1009",
+    "info": {
+      "name": "Borgenveien",
+      "address": "Slemsdalsveien 70B",
+      "capacity": 10,
+      "location": {
+        "lat": 59.942742106473666,
+        "long": 10.703833031254021
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 3,
+      "numDocksAvailable": 6
+    }
+  },
+  {
+    "id": "970",
+    "info": {
+      "name": "Enerhaugen",
+      "address": "Sørligata 2",
+      "capacity": 25,
+      "location": {
+        "lat": 59.91320242563816,
+        "long": 10.767579386407874
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 6,
+      "numDocksAvailable": 17
+    }
+  },
+  {
+    "id": "787",
+    "info": {
+      "name": "Kirkegata 15",
+      "address": "Kirkegata 15",
+      "capacity": 12,
+      "location": {
+        "lat": 59.91015615055511,
+        "long": 10.743456971511705
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 8,
+      "numDocksAvailable": 4
+    }
+  },
+  {
+    "id": "627",
+    "info": {
+      "name": "Skøyen Stasjon",
+      "address": "Skøyen Stasjon",
+      "capacity": 30,
+      "location": {
+        "lat": 59.922723981014094,
+        "long": 10.67862514536896
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 23,
+      "numDocksAvailable": 7
+    }
+  },
+  {
+    "id": "623",
+    "info": {
+      "name": "7. juni-plassen",
+      "address": "7. juni-plassen",
+      "capacity": 21,
+      "location": {
+        "lat": 59.9150596,
+        "long": 10.7312715
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 0,
+      "numDocksAvailable": 21
+    }
+  },
+  {
+    "id": "624",
+    "info": {
+      "name": "Dælenenggata",
+      "address": "Dælenenggata 38",
+      "capacity": 20,
+      "location": {
+        "lat": 59.9287502718149,
+        "long": 10.767546377298158
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 1,
+      "numDocksAvailable": 19
+    }
+  },
+  {
+    "id": "626",
+    "info": {
+      "name": "Drammensveien",
+      "address": "Drammensveien 119",
+      "capacity": 24,
+      "location": {
+        "lat": 59.9204038,
+        "long": 10.691147
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 8,
+      "numDocksAvailable": 16
+    }
+  },
+  {
+    "id": "614",
+    "info": {
+      "name": "Sinsen T-bane",
+      "address": "Hans Nielsen Hauges gate 50",
+      "capacity": 24,
+      "location": {
+        "lat": 59.938863086921295,
+        "long": 10.780603250331886
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 0,
+      "numDocksAvailable": 24
+    }
+  },
+  {
+    "id": "616",
+    "info": {
+      "name": "Salt",
+      "address": "Salt ved Langkaia",
+      "capacity": 15,
+      "location": {
+        "lat": 59.906922167198275,
+        "long": 10.746530272588245
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 11,
+      "numDocksAvailable": 3
+    }
+  },
+  {
+    "id": "618",
+    "info": {
+      "name": "Bak Niels Treschows hus sør",
+      "address": "Problemveien P. A. Munchs Hus",
+      "capacity": 42,
+      "location": {
+        "lat": 59.94247260310697,
+        "long": 10.723715245368956
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 1,
+      "numDocksAvailable": 41
+    }
+  },
+  {
+    "id": "622",
+    "info": {
+      "name": "Pilestredet 63",
+      "address": "Pilestredet 63",
+      "capacity": 30,
+      "location": {
+        "lat": 59.9238826,
+        "long": 10.7313627
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 1,
+      "numDocksAvailable": 29
+    }
+  },
+  {
+    "id": "613",
+    "info": {
+      "name": "Schives gate",
+      "address": "Schives gate",
+      "capacity": 27,
+      "location": {
+        "lat": 59.92095635370271,
+        "long": 10.714055629614734
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 11,
+      "numDocksAvailable": 16
+    }
+  },
+  {
+    "id": "620",
+    "info": {
+      "name": "Bislettgata",
+      "address": "Bislettgata",
+      "capacity": 40,
+      "location": {
+        "lat": 59.92377440938114,
+        "long": 10.734712874574
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 10,
+      "numDocksAvailable": 29
+    }
+  },
+  {
+    "id": "596",
+    "info": {
+      "name": "Idioten",
+      "address": "Ullevålsveien 79",
+      "capacity": 18,
+      "location": {
+        "lat": 59.931020132184614,
+        "long": 10.736036647971048
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 0,
+      "numDocksAvailable": 18
+    }
+  },
+  {
+    "id": "617",
+    "info": {
+      "name": "Bjerregaardsgate Øst",
+      "address": "Bjerregaardsgate 68",
+      "capacity": 21,
+      "location": {
+        "lat": 59.92716771401357,
+        "long": 10.749754560118863
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 3,
+      "numDocksAvailable": 18
+    }
+  },
+  {
+    "id": "609",
+    "info": {
+      "name": "Fred Olsens gate",
+      "address": "Fred Olsens gate",
+      "capacity": 27,
+      "location": {
+        "lat": 59.9110506,
+        "long": 10.7493737
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 8,
+      "numDocksAvailable": 19
+    }
+  },
+  {
+    "id": "607",
+    "info": {
+      "name": "Marcus Thranes gate",
+      "address": "Marcus Thranes gate 6",
+      "capacity": 30,
+      "location": {
+        "lat": 59.93277225626508,
+        "long": 10.758594919923468
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 16,
+      "numDocksAvailable": 14
+    }
+  },
+  {
+    "id": "603",
+    "info": {
+      "name": "Frogner plass",
+      "address": "Frognerveien 58",
+      "capacity": 18,
+      "location": {
+        "lat": 59.9225392,
+        "long": 10.7045406
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 6,
+      "numDocksAvailable": 12
+    }
+  },
+  {
+    "id": "590",
+    "info": {
+      "name": "Majorstua skole",
+      "address": "Majorstua skole",
+      "capacity": 40,
+      "location": {
+        "lat": 59.9294351,
+        "long": 10.7136816
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 19,
+      "numDocksAvailable": 20
+    }
+  },
+  {
+    "id": "610",
+    "info": {
+      "name": "Sotahjørnet",
+      "address": "Sotahjørnet",
+      "capacity": 20,
+      "location": {
+        "lat": 59.9099822,
+        "long": 10.7914482
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 3,
+      "numDocksAvailable": 17
+    }
+  },
+  {
+    "id": "608",
+    "info": {
+      "name": "Colletts gate",
+      "address": "Colletts/Diriks gate",
+      "capacity": 21,
+      "location": {
+        "lat": 59.93068679863987,
+        "long": 10.746273349149249
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 7,
+      "numDocksAvailable": 14
+    }
+  },
+  {
+    "id": "530",
+    "info": {
+      "name": "Holbergs plass",
+      "address": "Holbergs Plass",
+      "capacity": 10,
+      "location": {
+        "lat": 59.9193095,
+        "long": 10.7343051
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 7,
+      "numDocksAvailable": 1
+    }
+  },
+  {
+    "id": "463",
+    "info": {
+      "name": "Schous plass trikkestopp",
+      "address": "Schous plass trikkestopp",
+      "capacity": 20,
+      "location": {
+        "lat": 59.9207284,
+        "long": 10.7594857
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 9,
+      "numDocksAvailable": 10
+    }
+  },
+  {
+    "id": "475",
+    "info": {
+      "name": "Hausmanns bru",
+      "address": "Hausmanns bru",
+      "capacity": 24,
+      "location": {
+        "lat": 59.9146509,
+        "long": 10.7598719
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 8,
+      "numDocksAvailable": 15
+    }
+  },
+  {
+    "id": "439",
+    "info": {
+      "name": "Mølleparken",
+      "address": "Mølleparken",
+      "capacity": 25,
+      "location": {
+        "lat": 59.9283928,
+        "long": 10.7559693
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 11,
+      "numDocksAvailable": 14
+    }
+  },
+  {
+    "id": "600",
+    "info": {
+      "name": "Dyvekes bru",
+      "address": "St Halvards gate 13B",
+      "capacity": 12,
+      "location": {
+        "lat": 59.905323,
+        "long": 10.7689579
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 7,
+      "numDocksAvailable": 5
+    }
+  },
+  {
+    "id": "440",
+    "info": {
+      "name": "Lakkegata",
+      "address": "Lakkegata",
+      "capacity": 18,
+      "location": {
+        "lat": 59.9172088,
+        "long": 10.7622135
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 7,
+      "numDocksAvailable": 10
+    }
+  },
+  {
+    "id": "612",
+    "info": {
+      "name": "Ensjøveien",
+      "address": "Ensjøveien 6A",
+      "capacity": 19,
+      "location": {
+        "lat": 59.91662195885618,
+        "long": 10.783309055819714
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 1,
+      "numDocksAvailable": 17
+    }
+  },
+  {
+    "id": "491",
+    "info": {
+      "name": "Brugata",
+      "address": "Brugata 17",
+      "capacity": 18,
+      "location": {
+        "lat": 59.91366109486603,
+        "long": 10.75729364846211
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 12,
+      "numDocksAvailable": 6
+    }
+  },
+  {
+    "id": "493",
+    "info": {
+      "name": "Sofienbergparken nordvest",
+      "address": "Helgesens Gate 26A",
+      "capacity": 30,
+      "location": {
+        "lat": 59.9243639,
+        "long": 10.7615858
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 5,
+      "numDocksAvailable": 25
+    }
+  },
+  {
+    "id": "410",
+    "info": {
+      "name": "Landstads gate",
+      "address": "Circle K Kiellands",
+      "capacity": 27,
+      "location": {
+        "lat": 59.929005,
+        "long": 10.7496755
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 6,
+      "numDocksAvailable": 21
+    }
+  },
+  {
+    "id": "388",
+    "info": {
+      "name": "Skovveien",
+      "address": "Skovveien ved Frognerveien",
+      "capacity": 18,
+      "location": {
+        "lat": 59.9163309,
+        "long": 10.716349
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 3,
+      "numDocksAvailable": 15
+    }
+  },
+  {
+    "id": "591",
+    "info": {
+      "name": "Grenseveien",
+      "address": "Grenseveien 19",
+      "capacity": 24,
+      "location": {
+        "lat": 59.92464487862039,
+        "long": 10.781726510450724
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 1,
+      "numDocksAvailable": 23
+    }
+  },
+  {
+    "id": "592",
+    "info": {
+      "name": "Badebakken",
+      "address": "Maridalsveien 244C",
+      "capacity": 18,
+      "location": {
+        "lat": 59.94558091179507,
+        "long": 10.760323881579982
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 8,
+      "numDocksAvailable": 9
+    }
+  },
+  {
+    "id": "585",
+    "info": {
+      "name": "Nordre gate",
+      "address": "Nedre gate 2",
+      "capacity": 18,
+      "location": {
+        "lat": 59.92114988507087,
+        "long": 10.754714015938562
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 6,
+      "numDocksAvailable": 12
+    }
+  },
+  {
+    "id": "565",
+    "info": {
+      "name": "Mailundveien",
+      "address": "Mailundveien - Rosenhoffgata",
+      "capacity": 18,
+      "location": {
+        "lat": 59.9309181,
+        "long": 10.7728203
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 0,
+      "numDocksAvailable": 18
+    }
+  },
+  {
+    "id": "571",
+    "info": {
+      "name": "Over Rådhusgata",
+      "address": "Nedre Slottsgate 4",
+      "capacity": 21,
+      "location": {
+        "lat": 59.9101207,
+        "long": 10.7407129
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 11,
+      "numDocksAvailable": 10
+    }
+  },
+  {
+    "id": "568",
+    "info": {
+      "name": "Frognerveien",
+      "address": "Frognerveien 15",
+      "capacity": 15,
+      "location": {
+        "lat": 59.9170851,
+        "long": 10.7128796
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 3,
+      "numDocksAvailable": 12
+    }
+  },
+  {
+    "id": "588",
+    "info": {
+      "name": "Meltzers gate",
+      "address": "Meltzers gate ved Skovveien",
+      "capacity": 21,
+      "location": {
+        "lat": 59.9180141,
+        "long": 10.7184345
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 1,
+      "numDocksAvailable": 19
+    }
+  },
+  {
+    "id": "584",
+    "info": {
+      "name": "Henrik Wergelands allé",
+      "address": "Henrik Wergelands alle",
+      "capacity": 35,
+      "location": {
+        "lat": 59.9268942,
+        "long": 10.7207894
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 8,
+      "numDocksAvailable": 27
+    }
+  },
+  {
+    "id": "569",
+    "info": {
+      "name": "Botanisk hage sør-vest",
+      "address": "Sars gate",
+      "capacity": 30,
+      "location": {
+        "lat": 59.91783548782385,
+        "long": 10.766373769557958
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 6,
+      "numDocksAvailable": 23
+    }
+  },
+  {
+    "id": "577",
+    "info": {
+      "name": "Arkaden Nord",
+      "address": "Dronningens gate ved Arkaden II",
+      "capacity": 30,
+      "location": {
+        "lat": 59.9121472,
+        "long": 10.7480527
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 17,
+      "numDocksAvailable": 13
+    }
+  },
+  {
+    "id": "564",
+    "info": {
+      "name": "Oscars gate",
+      "address": "Oscars gate - Hegdehaugsveien",
+      "capacity": 30,
+      "location": {
+        "lat": 59.9224222,
+        "long": 10.7272388
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 3,
+      "numDocksAvailable": 27
+    }
+  },
+  {
+    "id": "570",
+    "info": {
+      "name": "Frøen T-bane",
+      "address": "Slemdalsveien 28",
+      "capacity": 15,
+      "location": {
+        "lat": 59.9347352,
+        "long": 10.7096985
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 1,
+      "numDocksAvailable": 14
+    }
+  },
+  {
+    "id": "572",
+    "info": {
+      "name": "Skøyen",
+      "address": "Skøyen (under bro)",
+      "capacity": 40,
+      "location": {
+        "lat": 59.92226850808104,
+        "long": 10.679579749668129
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 22,
+      "numDocksAvailable": 18
+    }
+  },
+  {
+    "id": "587",
+    "info": {
+      "name": "Riddervoldplass",
+      "address": "Riddervoldplass , Camilla Colletts vei",
+      "capacity": 15,
+      "location": {
+        "lat": 59.9191421,
+        "long": 10.7196414
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 12,
+      "numDocksAvailable": 3
+    }
+  },
+  {
+    "id": "586",
+    "info": {
+      "name": "Københavngata busstopp",
+      "address": "Københavngata busstopp",
+      "capacity": 27,
+      "location": {
+        "lat": 59.9294565845173,
+        "long": 10.769121495700826
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 4,
+      "numDocksAvailable": 23
+    }
+  },
+  {
+    "id": "576",
+    "info": {
+      "name": "Dronningens gate",
+      "address": "Dronningens gate 25",
+      "capacity": 18,
+      "location": {
+        "lat": 59.911392299457006,
+        "long": 10.747281829592453
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 8,
+      "numDocksAvailable": 10
+    }
+  },
+  {
+    "id": "602",
+    "info": {
+      "name": "Jarlsborgveien",
+      "address": "Jarlsborgveien- Hoffsveien",
+      "capacity": 18,
+      "location": {
+        "lat": 59.9304645,
+        "long": 10.6757833
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 13,
+      "numDocksAvailable": 5
+    }
+  },
+  {
+    "id": "575",
+    "info": {
+      "name": "Sognsveien",
+      "address": "Sognsveien ved Ullevål T-bane",
+      "capacity": 30,
+      "location": {
+        "lat": 59.94743324225673,
+        "long": 10.732569703704815
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 0,
+      "numDocksAvailable": 29
+    }
+  },
+  {
+    "id": "567",
+    "info": {
+      "name": "Forskningsveien",
+      "address": "Forskningsveien 1",
+      "capacity": 39,
+      "location": {
+        "lat": 59.945450633702556,
+        "long": 10.713867957672134
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 6,
+      "numDocksAvailable": 33
+    }
+  },
+  {
+    "id": "582",
+    "info": {
+      "name": "Stavangergata",
+      "address": "Stavangergata 1",
+      "capacity": 30,
+      "location": {
+        "lat": 59.94114763297182,
+        "long": 10.750775120272449
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 5,
+      "numDocksAvailable": 25
+    }
+  },
+  {
+    "id": "595",
+    "info": {
+      "name": "Skarpsnoparken",
+      "address": "Skarpsnoparken",
+      "capacity": 24,
+      "location": {
+        "lat": 59.914871,
+        "long": 10.701037
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 21,
+      "numDocksAvailable": 3
+    }
+  },
+  {
+    "id": "542",
+    "info": {
+      "name": "Grünerhagen Nord",
+      "address": "Sofienberggata 2B",
+      "capacity": 20,
+      "location": {
+        "lat": 59.9224256,
+        "long": 10.7554274
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 10,
+      "numDocksAvailable": 9
+    }
+  },
+  {
+    "id": "563",
+    "info": {
+      "name": "Huitfeldts gate",
+      "address": "Huitfeldts gate 24",
+      "capacity": 18,
+      "location": {
+        "lat": 59.9126844,
+        "long": 10.7229003
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 10,
+      "numDocksAvailable": 8
+    }
+  },
+  {
+    "id": "558",
+    "info": {
+      "name": "Dokkveien",
+      "address": "Dokkveien",
+      "capacity": 15,
+      "location": {
+        "lat": 59.910974,
+        "long": 10.7277001
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 0,
+      "numDocksAvailable": 14
+    }
+  },
+  {
+    "id": "552",
+    "info": {
+      "name": "Trelastgata",
+      "address": "Trelastgata 21",
+      "capacity": 18,
+      "location": {
+        "lat": 59.908004655328924,
+        "long": 10.7625700380287
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 9,
+      "numDocksAvailable": 9
+    }
+  },
+  {
+    "id": "555",
+    "info": {
+      "name": "Griffenfeldts gate",
+      "address": "Colletts gate 64",
+      "capacity": 15,
+      "location": {
+        "lat": 59.9337026,
+        "long": 10.7519299
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 0,
+      "numDocksAvailable": 14
+    }
+  },
+  {
+    "id": "573",
+    "info": {
+      "name": "Tordenskiolds gate",
+      "address": "Tordenskiolds gate 12",
+      "capacity": 24,
+      "location": {
+        "lat": 59.911776299209265,
+        "long": 10.735113005880237
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 17,
+      "numDocksAvailable": 3
+    }
+  },
+  {
+    "id": "561",
+    "info": {
+      "name": "Kirkeveien",
+      "address": "Kirkeveien 106A",
+      "capacity": 24,
+      "location": {
+        "lat": 59.93347989334691,
+        "long": 10.726294394131088
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 12,
+      "numDocksAvailable": 12
+    }
+  },
+  {
+    "id": "615",
+    "info": {
+      "name": "Munkedamsveien",
+      "address": "Konserthuset/Munkedamsveien",
+      "capacity": 21,
+      "location": {
+        "lat": 59.9135227,
+        "long": 10.7301061
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 9,
+      "numDocksAvailable": 12
+    }
+  },
+  {
+    "id": "543",
+    "info": {
+      "name": "Fyrstikktorget",
+      "address": "Grensesvingen 7",
+      "capacity": 20,
+      "location": {
+        "lat": 59.91381587564694,
+        "long": 10.798093360118871
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 0,
+      "numDocksAvailable": 19
+    }
+  },
+  {
+    "id": "554",
+    "info": {
+      "name": "Tåsen Senter",
+      "address": "Tåsen senter ved rundkjøring",
+      "capacity": 21,
+      "location": {
+        "lat": 59.952659,
+        "long": 10.751165
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 0,
+      "numDocksAvailable": 21
+    }
+  },
+  {
+    "id": "574",
+    "info": {
+      "name": "Annette Thommessens Plass",
+      "address": "Annette Thommesens Plass",
+      "capacity": 12,
+      "location": {
+        "lat": 59.9107393,
+        "long": 10.7609998
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 4,
+      "numDocksAvailable": 8
+    }
+  },
+  {
+    "id": "560",
+    "info": {
+      "name": "Gaustad T-bane",
+      "address": "Gaustad T-bane",
+      "capacity": 9,
+      "location": {
+        "lat": 59.945955,
+        "long": 10.710392
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 1,
+      "numDocksAvailable": 8
+    }
+  },
+  {
+    "id": "548",
+    "info": {
+      "name": "Colbjørnsens gate",
+      "address": "Colbjørnsens gate",
+      "capacity": 18,
+      "location": {
+        "lat": 59.91731888534716,
+        "long": 10.716909039918278
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 3,
+      "numDocksAvailable": 15
+    }
+  },
+  {
+    "id": "559",
+    "info": {
+      "name": "Hoffsveien",
+      "address": "Hoffsveien 1E",
+      "capacity": 18,
+      "location": {
+        "lat": 59.923898,
+        "long": 10.6760339
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 1,
+      "numDocksAvailable": 17
+    }
+  },
+  {
+    "id": "545",
+    "info": {
+      "name": "Arkaden Sør",
+      "address": "Dronningens gate ved Arkaden",
+      "capacity": 39,
+      "location": {
+        "lat": 59.9119691,
+        "long": 10.7478583
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 13,
+      "numDocksAvailable": 26
+    }
+  },
+  {
+    "id": "550",
+    "info": {
+      "name": "Thereses gate",
+      "address": "Therese's gate 49",
+      "capacity": 9,
+      "location": {
+        "lat": 59.9261462,
+        "long": 10.7310355
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 1,
+      "numDocksAvailable": 8
+    }
+  },
+  {
+    "id": "541",
+    "info": {
+      "name": "Langkaia",
+      "address": "rådhusgata / langkaia",
+      "capacity": 12,
+      "location": {
+        "lat": 59.9080552,
+        "long": 10.7479977
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 5,
+      "numDocksAvailable": 6
+    }
+  },
+  {
+    "id": "527",
+    "info": {
+      "name": "Biskop Gunnerus' gate",
+      "address": "Oslo City - Biskop Gunnerus gate",
+      "capacity": 12,
+      "location": {
+        "lat": 59.9123341,
+        "long": 10.752292
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 9,
+      "numDocksAvailable": 3
+    }
+  },
+  {
+    "id": "529",
+    "info": {
+      "name": "Friggfeltet",
+      "address": "Slemdalsveien ved Frigg",
+      "capacity": 21,
+      "location": {
+        "lat": 59.9327726,
+        "long": 10.7114661
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 0,
+      "numDocksAvailable": 20
+    }
+  },
+  {
+    "id": "549",
+    "info": {
+      "name": "Linaaes gate",
+      "address": "Møllergata 3",
+      "capacity": 21,
+      "location": {
+        "lat": 59.91382393242077,
+        "long": 10.745704482209018
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 0,
+      "numDocksAvailable": 20
+    }
+  },
+  {
+    "id": "526",
+    "info": {
+      "name": "Lille Grensen",
+      "address": "Lille Grensen - Akersgata 43",
+      "capacity": 15,
+      "location": {
+        "lat": 59.9138973,
+        "long": 10.7423101
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 1,
+      "numDocksAvailable": 14
+    }
+  },
+  {
+    "id": "537",
+    "info": {
+      "name": "St. Olavs gate",
+      "address": "St.Olavs gate 21 - Pilestredet",
+      "capacity": 20,
+      "location": {
+        "lat": 59.9179676629428,
+        "long": 10.738628884264756
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 6,
+      "numDocksAvailable": 14
+    }
+  },
+  {
+    "id": "547",
+    "info": {
+      "name": "Skippergata",
+      "address": "Skippergata - Karl Johans gate",
+      "capacity": 30,
+      "location": {
+        "lat": 59.9112227,
+        "long": 10.7481976
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 11,
+      "numDocksAvailable": 19
+    }
+  },
+  {
+    "id": "601",
+    "info": {
+      "name": "Rolf Wickstrøms vei",
+      "address": "Rolf Wickstrøms vei, Bergrådveien 13",
+      "capacity": 20,
+      "location": {
+        "lat": 59.9534114,
+        "long": 10.7577241
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 6,
+      "numDocksAvailable": 14
+    }
+  },
+  {
+    "id": "533",
+    "info": {
+      "name": "Sørvest for Slottsparken",
+      "address": "Henrik Ibsens gate 40",
+      "capacity": 12,
+      "location": {
+        "lat": 59.915262,
+        "long": 10.7253157
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 5,
+      "numDocksAvailable": 7
+    }
+  },
+  {
+    "id": "535",
+    "info": {
+      "name": "Uranienborgveien",
+      "address": "Uranienborgveien 3",
+      "capacity": 27,
+      "location": {
+        "lat": 59.9200421,
+        "long": 10.726634
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 1,
+      "numDocksAvailable": 26
+    }
+  },
+  {
+    "id": "524",
+    "info": {
+      "name": "Volvat",
+      "address": "Sørkedalsveien 33",
+      "capacity": 21,
+      "location": {
+        "lat": 59.9330870371029,
+        "long": 10.703967938028702
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 8,
+      "numDocksAvailable": 13
+    }
+  },
+  {
+    "id": "519",
+    "info": {
+      "name": "Thomas Heftyes plass",
+      "address": "Bygdøy alle/Elisenbergveien",
+      "capacity": 24,
+      "location": {
+        "lat": 59.918578143336774,
+        "long": 10.703899530059402
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 6,
+      "numDocksAvailable": 18
+    }
+  },
+  {
+    "id": "534",
+    "info": {
+      "name": "Filipstadveien",
+      "address": "Filipstadveien El-bilparkering/busslomme",
+      "capacity": 39,
+      "location": {
+        "lat": 59.9102277,
+        "long": 10.7208788
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 24,
+      "numDocksAvailable": 15
+    }
+  },
+  {
+    "id": "521",
+    "info": {
+      "name": "Jess Carlsens gate",
+      "address": "Jess Carlsens gate",
+      "capacity": 15,
+      "location": {
+        "lat": 59.9186359,
+        "long": 10.7523939
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 14,
+      "numDocksAvailable": 0
+    }
+  },
+  {
+    "id": "518",
+    "info": {
+      "name": "Ullevålsveien",
+      "address": "Ullevålsveien 47 - Schwenssens gate",
+      "capacity": 18,
+      "location": {
+        "lat": 59.9246852,
+        "long": 10.7395045
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 0,
+      "numDocksAvailable": 18
+    }
+  },
+  {
+    "id": "556",
+    "info": {
+      "name": "Pilestredet",
+      "address": "Pilestredet 75",
+      "capacity": 18,
+      "location": {
+        "lat": 59.9262242,
+        "long": 10.7296246
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 0,
+      "numDocksAvailable": 18
+    }
+  },
+  {
+    "id": "525",
+    "info": {
+      "name": "Myraløkka Øst",
+      "address": "Arendalsgata 45",
+      "capacity": 15,
+      "location": {
+        "lat": 59.937205,
+        "long": 10.7605813
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 0,
+      "numDocksAvailable": 15
+    }
+  },
+  {
+    "id": "523",
+    "info": {
+      "name": "Tøyenbekken",
+      "address": "Tøyenbekken",
+      "capacity": 30,
+      "location": {
+        "lat": 59.9115945,
+        "long": 10.7617736
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 7,
+      "numDocksAvailable": 23
+    }
+  },
+  {
+    "id": "522",
+    "info": {
+      "name": "Mandalls gate",
+      "address": "Mandalls gate",
+      "capacity": 10,
+      "location": {
+        "lat": 59.9123469,
+        "long": 10.7638147
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 8,
+      "numDocksAvailable": 1
+    }
+  },
+  {
+    "id": "594",
+    "info": {
+      "name": "Kampen park Øst",
+      "address": "Kampen park øst",
+      "capacity": 21,
+      "location": {
+        "lat": 59.915182,
+        "long": 10.782129
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 1,
+      "numDocksAvailable": 20
+    }
+  },
+  {
+    "id": "532",
+    "info": {
+      "name": "Brynseng T-bane",
+      "address": "Østensjøveien 47",
+      "capacity": 21,
+      "location": {
+        "lat": 59.90918420865812,
+        "long": 10.81431433498766
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 1,
+      "numDocksAvailable": 20
+    }
+  },
+  {
+    "id": "509",
+    "info": {
+      "name": "Kjeld Stubs gate",
+      "address": "Kjeld Stubs gate 3",
+      "capacity": 12,
+      "location": {
+        "lat": 59.912711,
+        "long": 10.735595
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 2,
+      "numDocksAvailable": 10
+    }
+  },
+  {
+    "id": "531",
+    "info": {
+      "name": "Monolittveien",
+      "address": "Smestaddammen (Monolittveien/Hoffsveien)",
+      "capacity": 18,
+      "location": {
+        "lat": 59.935947,
+        "long": 10.681138
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 13,
+      "numDocksAvailable": 5
+    }
+  },
+  {
+    "id": "562",
+    "info": {
+      "name": "Slottsparken Øst",
+      "address": "Wergelandsveien / St Olavs gate",
+      "capacity": 40,
+      "location": {
+        "lat": 59.917485,
+        "long": 10.732128
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 5,
+      "numDocksAvailable": 33
+    }
+  },
+  {
+    "id": "508",
+    "info": {
+      "name": "Majorstuen T-bane",
+      "address": "Majorstuen t-bane",
+      "capacity": 18,
+      "location": {
+        "lat": 59.92985724219502,
+        "long": 10.714566236770679
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 0,
+      "numDocksAvailable": 18
+    }
+  },
+  {
+    "id": "511",
+    "info": {
+      "name": "Henrik Ibsens gate",
+      "address": "Parkveien / Henrik Ibsens gate",
+      "capacity": 24,
+      "location": {
+        "lat": 59.915088,
+        "long": 10.7222803
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 11,
+      "numDocksAvailable": 12
+    }
+  },
+  {
+    "id": "505",
+    "info": {
+      "name": "Marienlystparken",
+      "address": "Marienlyst / Kirkeveien",
+      "capacity": 24,
+      "location": {
+        "lat": 59.93215,
+        "long": 10.723478
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 2,
+      "numDocksAvailable": 22
+    }
+  },
+  {
+    "id": "501",
+    "info": {
+      "name": "Krebs' gate",
+      "address": "Vogstgate 60",
+      "capacity": 18,
+      "location": {
+        "lat": 59.935995,
+        "long": 10.765413
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 5,
+      "numDocksAvailable": 13
+    }
+  },
+  {
+    "id": "514",
+    "info": {
+      "name": "Sofienberggata",
+      "address": "Trondheimsveien 37",
+      "capacity": 12,
+      "location": {
+        "lat": 59.9212063,
+        "long": 10.7699892
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 8,
+      "numDocksAvailable": 3
+    }
+  },
+  {
+    "id": "500",
+    "info": {
+      "name": "Anker Hotel",
+      "address": "Storgata 57 Anker Hotell",
+      "capacity": 12,
+      "location": {
+        "lat": 59.9172794,
+        "long": 10.7581553
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 3,
+      "numDocksAvailable": 8
+    }
+  },
+  {
+    "id": "503",
+    "info": {
+      "name": "Fagerheimgata",
+      "address": "Fagerheimgata 8",
+      "capacity": 33,
+      "location": {
+        "lat": 59.927605868377185,
+        "long": 10.76598469881135
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 2,
+      "numDocksAvailable": 31
+    }
+  },
+  {
+    "id": "513",
+    "info": {
+      "name": "Bøkkerveien",
+      "address": "Bøkkerveien 11 ved Cafe Nord",
+      "capacity": 15,
+      "location": {
+        "lat": 59.9273747,
+        "long": 10.7960147
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 0,
+      "numDocksAvailable": 14
+    }
+  },
+  {
+    "id": "498",
+    "info": {
+      "name": "HasleLinje",
+      "address": "Kavresvingen 3",
+      "capacity": 18,
+      "location": {
+        "lat": 59.92763407981436,
+        "long": 10.799249379762283
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 9,
+      "numDocksAvailable": 9
+    }
+  },
+  {
+    "id": "507",
+    "info": {
+      "name": "Jens Bjelkes Gate",
+      "address": "Jens Bjelkes gate / Trondheimsveien",
+      "capacity": 20,
+      "location": {
+        "lat": 59.91914743024347,
+        "long": 10.76412958416006
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 15,
+      "numDocksAvailable": 4
+    }
+  },
+  {
+    "id": "512",
+    "info": {
+      "name": "Ensjø T-bane",
+      "address": "Ensjøveien 22",
+      "capacity": 30,
+      "location": {
+        "lat": 59.9131891,
+        "long": 10.7897605
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 3,
+      "numDocksAvailable": 26
+    }
+  },
+  {
+    "id": "502",
+    "info": {
+      "name": "Ullevål sykehus",
+      "address": "Kirkeveien 166 / Ullevål sykehus",
+      "capacity": 35,
+      "location": {
+        "lat": 59.9360307,
+        "long": 10.7364516
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 0,
+      "numDocksAvailable": 35
+    }
+  },
+  {
+    "id": "619",
+    "info": {
+      "name": "Bak Niels Treschows hus nord",
+      "address": "Problemveien P. A. Munchs Hus",
+      "capacity": 42,
+      "location": {
+        "lat": 59.942780248542554,
+        "long": 10.722993731144015
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 1,
+      "numDocksAvailable": 41
+    }
+  },
+  {
+    "id": "474",
+    "info": {
+      "name": "Blindern studentparkering",
+      "address": "Blindern studentparkering",
+      "capacity": 42,
+      "location": {
+        "lat": 59.940873733543725,
+        "long": 10.720778851520523
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 0,
+      "numDocksAvailable": 42
+    }
+  },
+  {
+    "id": "580",
+    "info": {
+      "name": "Georg Morgenstiernes hus",
+      "address": "Moltke Moes vei 37",
+      "capacity": 45,
+      "location": {
+        "lat": 59.939025551395765,
+        "long": 10.723002619643406
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 6,
+      "numDocksAvailable": 38
+    }
+  },
+  {
+    "id": "496",
+    "info": {
+      "name": "Fysikkbygningen",
+      "address": "Blindern Fysikkbygg parkering",
+      "capacity": 45,
+      "location": {
+        "lat": 59.937957367051965,
+        "long": 10.719488529430388
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 0,
+      "numDocksAvailable": 44
+    }
+  },
+  {
+    "id": "482",
+    "info": {
+      "name": "Nydalen",
+      "address": "Gjerdrumsvei 6",
+      "capacity": 18,
+      "location": {
+        "lat": 59.952868,
+        "long": 10.766483
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 9,
+      "numDocksAvailable": 9
+    }
+  },
+  {
+    "id": "407",
+    "info": {
+      "name": "Sagene bussholdeplass",
+      "address": "Sagene bussholdeplass",
+      "capacity": 15,
+      "location": {
+        "lat": 59.937743,
+        "long": 10.751648
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 1,
+      "numDocksAvailable": 14
+    }
+  },
+  {
+    "id": "409",
+    "info": {
+      "name": "John Colletts plass",
+      "address": "Sognsveien 16",
+      "capacity": 25,
+      "location": {
+        "lat": 59.940398,
+        "long": 10.730036
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 6,
+      "numDocksAvailable": 19
+    }
+  },
+  {
+    "id": "451",
+    "info": {
+      "name": "Suhms gate",
+      "address": "Suhms gate 1A",
+      "capacity": 21,
+      "location": {
+        "lat": 59.929419,
+        "long": 10.726195
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 2,
+      "numDocksAvailable": 19
+    }
+  },
+  {
+    "id": "385",
+    "info": {
+      "name": "Søndre gate",
+      "address": "Søndre gate 6",
+      "capacity": 21,
+      "location": {
+        "lat": 59.918632,
+        "long": 10.757867
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 14,
+      "numDocksAvailable": 5
+    }
+  },
+  {
+    "id": "402",
+    "info": {
+      "name": "Lørenveien",
+      "address": "Lørenveien 41e",
+      "capacity": 21,
+      "location": {
+        "lat": 59.93087712510462,
+        "long": 10.791823716034969
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 0,
+      "numDocksAvailable": 20
+    }
+  },
+  {
+    "id": "516",
+    "info": {
+      "name": "Finnmarksgata",
+      "address": "Finnmarksgata 40",
+      "capacity": 15,
+      "location": {
+        "lat": 59.922839,
+        "long": 10.775658
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 2,
+      "numDocksAvailable": 13
+    }
+  },
+  {
+    "id": "429",
+    "info": {
+      "name": "Thune",
+      "address": "Thune ved bomring",
+      "capacity": 21,
+      "location": {
+        "lat": 59.92208,
+        "long": 10.68588
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 4,
+      "numDocksAvailable": 17
+    }
+  },
+  {
+    "id": "380",
+    "info": {
+      "name": "Bentsebrugata",
+      "address": "Bentsebrugata 29b",
+      "capacity": 24,
+      "location": {
+        "lat": 59.93923,
+        "long": 10.75917
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 0,
+      "numDocksAvailable": 23
+    }
+  },
+  {
+    "id": "583",
+    "info": {
+      "name": "Galgeberg",
+      "address": "St Halvards gate 57A",
+      "capacity": 18,
+      "location": {
+        "lat": 59.90707579234818,
+        "long": 10.779164402446728
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 1,
+      "numDocksAvailable": 16
+    }
+  },
+  {
+    "id": "398",
+    "info": {
+      "name": "Ringnes Park",
+      "address": "Sannergata 6A",
+      "capacity": 18,
+      "location": {
+        "lat": 59.92843404417577,
+        "long": 10.75943014633117
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 14,
+      "numDocksAvailable": 3
+    }
+  },
+  {
+    "id": "381",
+    "info": {
+      "name": "Grønlands torg",
+      "address": "Grønlands torg",
+      "capacity": 15,
+      "location": {
+        "lat": 59.91252,
+        "long": 10.76224
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 11,
+      "numDocksAvailable": 1
+    }
+  },
+  {
+    "id": "464",
+    "info": {
+      "name": "Sukkerbiten",
+      "address": "sukkerbiten",
+      "capacity": 35,
+      "location": {
+        "lat": 59.905124380703484,
+        "long": 10.753763553726515
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 18,
+      "numDocksAvailable": 14
+    }
+  },
+  {
+    "id": "442",
+    "info": {
+      "name": "Vulkan",
+      "address": "Vulkan 26",
+      "capacity": 18,
+      "location": {
+        "lat": 59.92251,
+        "long": 10.75101
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 11,
+      "numDocksAvailable": 4
+    }
+  },
+  {
+    "id": "483",
+    "info": {
+      "name": "Hausmanns gate",
+      "address": "Hausmanns gate / Røde Kors",
+      "capacity": 21,
+      "location": {
+        "lat": 59.915451,
+        "long": 10.758328
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 11,
+      "numDocksAvailable": 10
+    }
+  },
+  {
+    "id": "458",
+    "info": {
+      "name": "Jenny Braatens Plass",
+      "address": "Trondheimsveien 135",
+      "capacity": 15,
+      "location": {
+        "lat": 59.928349,
+        "long": 10.77837
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 1,
+      "numDocksAvailable": 13
+    }
+  },
+  {
+    "id": "499",
+    "info": {
+      "name": "Bjerregaards gate",
+      "address": "Bjerregaards gate 52-32",
+      "capacity": 21,
+      "location": {
+        "lat": 59.925488,
+        "long": 10.746058
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 10,
+      "numDocksAvailable": 10
+    }
+  },
+  {
+    "id": "472",
+    "info": {
+      "name": "Arendalsgata",
+      "address": "Arendalsgata / Sagene Kirke",
+      "capacity": 24,
+      "location": {
+        "lat": 59.9378,
+        "long": 10.7541
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 0,
+      "numDocksAvailable": 24
+    }
+  },
+  {
+    "id": "506",
+    "info": {
+      "name": "Botanisk Hage vest",
+      "address": "Botanisk Hage vest",
+      "capacity": 27,
+      "location": {
+        "lat": 59.92012811804052,
+        "long": 10.768875408563598
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 3,
+      "numDocksAvailable": 24
+    }
+  },
+  {
+    "id": "465",
+    "info": {
+      "name": "Bjørvika",
+      "address": "Dronning Eufemias gate 8",
+      "capacity": 30,
+      "location": {
+        "lat": 59.909006,
+        "long": 10.75618
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 10,
+      "numDocksAvailable": 20
+    }
+  },
+  {
+    "id": "611",
+    "info": {
+      "name": "Bankplassen",
+      "address": "Bankplassen",
+      "capacity": 39,
+      "location": {
+        "lat": 59.908454,
+        "long": 10.741869
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 14,
+      "numDocksAvailable": 24
+    }
+  },
+  {
+    "id": "404",
+    "info": {
+      "name": "Oslo Handelsgymnasium",
+      "address": "Solligata",
+      "capacity": 27,
+      "location": {
+        "lat": 59.914306,
+        "long": 10.720202
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 16,
+      "numDocksAvailable": 11
+    }
+  },
+  {
+    "id": "579",
+    "info": {
+      "name": "Bogstadveien",
+      "address": "Bogstadveien",
+      "capacity": 18,
+      "location": {
+        "lat": 59.924732,
+        "long": 10.724628
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 6,
+      "numDocksAvailable": 12
+    }
+  },
+  {
+    "id": "589",
+    "info": {
+      "name": "Huk 1",
+      "address": "Huk",
+      "capacity": 27,
+      "location": {
+        "lat": 59.89853221724158,
+        "long": 10.674403950323182
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 2,
+      "numDocksAvailable": 25
+    }
+  },
+  {
+    "id": "434",
+    "info": {
+      "name": "Lindern",
+      "address": "Kirkeveien 165",
+      "capacity": 21,
+      "location": {
+        "lat": 59.9358883,
+        "long": 10.7350062
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 0,
+      "numDocksAvailable": 20
+    }
+  },
+  {
+    "id": "462",
+    "info": {
+      "name": "Stensparken",
+      "address": "Sporveisgata",
+      "capacity": 15,
+      "location": {
+        "lat": 59.92714,
+        "long": 10.730981
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 4,
+      "numDocksAvailable": 11
+    }
+  },
+  {
+    "id": "578",
+    "info": {
+      "name": "Hallings gate",
+      "address": "Hallings gate 2",
+      "capacity": 24,
+      "location": {
+        "lat": 59.922777,
+        "long": 10.738655
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 2,
+      "numDocksAvailable": 21
+    }
+  },
+  {
+    "id": "415",
+    "info": {
+      "name": "Sinsenveien",
+      "address": "Sinsenveien ",
+      "capacity": 12,
+      "location": {
+        "lat": 59.929542,
+        "long": 10.781053
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 0,
+      "numDocksAvailable": 12
+    }
+  },
+  {
+    "id": "423",
+    "info": {
+      "name": "Schous plass",
+      "address": "Schous plass",
+      "capacity": 20,
+      "location": {
+        "lat": 59.920335,
+        "long": 10.760804
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 8,
+      "numDocksAvailable": 9
+    }
+  },
+  {
+    "id": "412",
+    "info": {
+      "name": "Jakob kirke",
+      "address": "Jakob Kirke",
+      "capacity": 9,
+      "location": {
+        "lat": 59.917866,
+        "long": 10.754898
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 6,
+      "numDocksAvailable": 1
+    }
+  },
+  {
+    "id": "387",
+    "info": {
+      "name": "Studenterlunden",
+      "address": "Karl Johans gate 47",
+      "capacity": 15,
+      "location": {
+        "lat": 59.914586,
+        "long": 10.735453
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 5,
+      "numDocksAvailable": 10
+    }
+  },
+  {
+    "id": "405",
+    "info": {
+      "name": "Frognerbadet",
+      "address": "Middelthuns gate 28",
+      "capacity": 18,
+      "location": {
+        "lat": 59.92808,
+        "long": 10.708767
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 1,
+      "numDocksAvailable": 17
+    }
+  },
+  {
+    "id": "441",
+    "info": {
+      "name": "Vippetangen øst",
+      "address": "Vippetangen_Akershusstranden",
+      "capacity": 15,
+      "location": {
+        "lat": 59.903989,
+        "long": 10.741077
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 11,
+      "numDocksAvailable": 3
+    }
+  },
+  {
+    "id": "443",
+    "info": {
+      "name": "Sjøsiden ved trappen",
+      "address": "Christian Frederiks Plass",
+      "capacity": 45,
+      "location": {
+        "lat": 59.910154466964954,
+        "long": 10.751980909227372
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 23,
+      "numDocksAvailable": 20
+    }
+  },
+  {
+    "id": "454",
+    "info": {
+      "name": "Furulund",
+      "address": "Vækerøveien 22",
+      "capacity": 24,
+      "location": {
+        "lat": 59.9198098,
+        "long": 10.651118
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 2,
+      "numDocksAvailable": 22
+    }
+  },
+  {
+    "id": "436",
+    "info": {
+      "name": "Vestkanttorvet",
+      "address": "Vestkanttorvet",
+      "capacity": 15,
+      "location": {
+        "lat": 59.9244031,
+        "long": 10.7130691
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 5,
+      "numDocksAvailable": 10
+    }
+  },
+  {
+    "id": "394",
+    "info": {
+      "name": "Bjølsen Studentby",
+      "address": "Bergensgata 15D",
+      "capacity": 21,
+      "location": {
+        "lat": 59.943777539367225,
+        "long": 10.760121127577955
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 16,
+      "numDocksAvailable": 4
+    }
+  },
+  {
+    "id": "497",
+    "info": {
+      "name": "Sirkustomta",
+      "address": "Sirkustomta",
+      "capacity": 27,
+      "location": {
+        "lat": 59.919252,
+        "long": 10.774712
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 1,
+      "numDocksAvailable": 25
+    }
+  },
+  {
+    "id": "581",
+    "info": {
+      "name": "Jordalgata",
+      "address": "Galgeberg 3G",
+      "capacity": 24,
+      "location": {
+        "lat": 59.908227,
+        "long": 10.781088
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 3,
+      "numDocksAvailable": 20
+    }
+  },
+  {
+    "id": "461",
+    "info": {
+      "name": "Vålerenga",
+      "address": "Strømsveien 23D",
+      "capacity": 21,
+      "location": {
+        "lat": 59.908576,
+        "long": 10.786856
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 2,
+      "numDocksAvailable": 18
+    }
+  },
+  {
+    "id": "599",
+    "info": {
+      "name": "Paléhaven",
+      "address": "Palehaven",
+      "capacity": 48,
+      "location": {
+        "lat": 59.910331,
+        "long": 10.75011
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 22,
+      "numDocksAvailable": 26
+    }
+  },
+  {
+    "id": "428",
+    "info": {
+      "name": "Olav Kyrres plass",
+      "address": "Olav Kyrres plass",
+      "capacity": 24,
+      "location": {
+        "lat": 59.9193337,
+        "long": 10.6968953
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 8,
+      "numDocksAvailable": 16
+    }
+  },
+  {
+    "id": "400",
+    "info": {
+      "name": "OsloMet",
+      "address": "Pilestredet 35",
+      "capacity": 25,
+      "location": {
+        "lat": 59.919927,
+        "long": 10.735428
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 2,
+      "numDocksAvailable": 21
+    }
+  },
+  {
+    "id": "487",
+    "info": {
+      "name": "Carl Berners plass nord",
+      "address": "Carl Berner Senter",
+      "capacity": 21,
+      "location": {
+        "lat": 59.926929,
+        "long": 10.776971
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 6,
+      "numDocksAvailable": 15
+    }
+  },
+  {
+    "id": "438",
+    "info": {
+      "name": "BI Nydalen",
+      "address": "Nydalsveien 37",
+      "capacity": 42,
+      "location": {
+        "lat": 59.949239,
+        "long": 10.768576
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 4,
+      "numDocksAvailable": 38
+    }
+  },
+  {
+    "id": "459",
+    "info": {
+      "name": "Valkyrieplassen",
+      "address": "Valkyriegata 1",
+      "capacity": 12,
+      "location": {
+        "lat": 59.9281319,
+        "long": 10.71842
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 3,
+      "numDocksAvailable": 9
+    }
+  },
+  {
+    "id": "433",
+    "info": {
+      "name": "Ila",
+      "address": "Ovenfor Claus Riis' gate",
+      "capacity": 18,
+      "location": {
+        "lat": 59.931828,
+        "long": 10.748745
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 9,
+      "numDocksAvailable": 8
+    }
+  },
+  {
+    "id": "399",
+    "info": {
+      "name": "Uelands gate",
+      "address": "Uelands gate 40",
+      "capacity": 36,
+      "location": {
+        "lat": 59.929545,
+        "long": 10.7489862
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 5,
+      "numDocksAvailable": 30
+    }
+  },
+  {
+    "id": "489",
+    "info": {
+      "name": "Torggata",
+      "address": "Torggata 18",
+      "capacity": 30,
+      "location": {
+        "lat": 59.91598309274519,
+        "long": 10.75155119076095
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 11,
+      "numDocksAvailable": 19
+    }
+  },
+  {
+    "id": "551",
+    "info": {
+      "name": "Olaf Ryes plass",
+      "address": "Olaf Ryes plass 2",
+      "capacity": 35,
+      "location": {
+        "lat": 59.922425,
+        "long": 10.758182
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 14,
+      "numDocksAvailable": 20
+    }
+  },
+  {
+    "id": "406",
+    "info": {
+      "name": "Carl Berners plass sør",
+      "address": "Frydens Gate 1A",
+      "capacity": 12,
+      "location": {
+        "lat": 59.92507,
+        "long": 10.775996
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 5,
+      "numDocksAvailable": 7
+    }
+  },
+  {
+    "id": "488",
+    "info": {
+      "name": "Torshovparken vest",
+      "address": "Per Kvibergs gate 18",
+      "capacity": 24,
+      "location": {
+        "lat": 59.93507,
+        "long": 10.76915
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 2,
+      "numDocksAvailable": 22
+    }
+  },
+  {
+    "id": "540",
+    "info": {
+      "name": "Lilleborgbanen",
+      "address": "Ole Bulls gate 43",
+      "capacity": 36,
+      "location": {
+        "lat": 59.93363159074286,
+        "long": 10.769118139881124
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 3,
+      "numDocksAvailable": 31
+    }
+  },
+  {
+    "id": "431",
+    "info": {
+      "name": "Chr. Michelsens Gate",
+      "address": "Chr. Michelsens Gate 18",
+      "capacity": 20,
+      "location": {
+        "lat": 59.927292,
+        "long": 10.773185
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 3,
+      "numDocksAvailable": 17
+    }
+  },
+  {
+    "id": "393",
+    "info": {
+      "name": "Hans Nielsen Hauges plass",
+      "address": "Hans Nielsen Hauges plass 1",
+      "capacity": 21,
+      "location": {
+        "lat": 59.939244,
+        "long": 10.774319
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 1,
+      "numDocksAvailable": 19
+    }
+  },
+  {
+    "id": "420",
+    "info": {
+      "name": "Bjølsendumpa",
+      "address": "Treschows gate 8B",
+      "capacity": 21,
+      "location": {
+        "lat": 59.94032925181832,
+        "long": 10.766136667493829
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 0,
+      "numDocksAvailable": 20
+    }
+  },
+  {
+    "id": "397",
+    "info": {
+      "name": "Storo Storsenter",
+      "address": "Vitaminveien 21",
+      "capacity": 42,
+      "location": {
+        "lat": 59.94671044754387,
+        "long": 10.773805285879131
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 2,
+      "numDocksAvailable": 40
+    }
+  },
+  {
+    "id": "390",
+    "info": {
+      "name": "Saga Kino",
+      "address": "Saga Kino",
+      "capacity": 30,
+      "location": {
+        "lat": 59.91424026794647,
+        "long": 10.732771354719745
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 6,
+      "numDocksAvailable": 24
+    }
+  },
+  {
+    "id": "449",
+    "info": {
+      "name": "Ruseløkkgården",
+      "address": "Ruseløkkgården",
+      "capacity": 24,
+      "location": {
+        "lat": 59.91357497092093,
+        "long": 10.726229742333288
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 10,
+      "numDocksAvailable": 14
+    }
+  },
+  {
+    "id": "484",
+    "info": {
+      "name": "Karenslyst allé",
+      "address": "Karenslyst allé 9",
+      "capacity": 35,
+      "location": {
+        "lat": 59.92033,
+        "long": 10.683814
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 16,
+      "numDocksAvailable": 17
+    }
+  },
+  {
+    "id": "479",
+    "info": {
+      "name": "Tjuvholmen",
+      "address": "Tjuvholmen",
+      "capacity": 30,
+      "location": {
+        "lat": 59.909467,
+        "long": 10.722509
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 7,
+      "numDocksAvailable": 23
+    }
+  },
+  {
+    "id": "403",
+    "info": {
+      "name": "Parkveien",
+      "address": "Parkveien",
+      "capacity": 15,
+      "location": {
+        "lat": 59.921768,
+        "long": 10.730476
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 6,
+      "numDocksAvailable": 9
+    }
+  },
+  {
+    "id": "435",
+    "info": {
+      "name": "Fram-gården",
+      "address": "Fram-gården",
+      "capacity": 30,
+      "location": {
+        "lat": 59.915424,
+        "long": 10.714577
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 9,
+      "numDocksAvailable": 21
+    }
+  },
+  {
+    "id": "426",
+    "info": {
+      "name": "Gimle Kino",
+      "address": "Gimle Kino",
+      "capacity": 21,
+      "location": {
+        "lat": 59.91728078292675,
+        "long": 10.708375798767435
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 11,
+      "numDocksAvailable": 10
+    }
+  },
+  {
+    "id": "450",
+    "info": {
+      "name": "Elisenberg",
+      "address": "Elisenberg",
+      "capacity": 15,
+      "location": {
+        "lat": 59.919524,
+        "long": 10.70884
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 1,
+      "numDocksAvailable": 14
+    }
+  },
+  {
+    "id": "456",
+    "info": {
+      "name": "Frognerstranda",
+      "address": "Frognerstranda",
+      "capacity": 35,
+      "location": {
+        "lat": 59.9103558,
+        "long": 10.7051061
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 8,
+      "numDocksAvailable": 25
+    }
+  },
+  {
+    "id": "468",
+    "info": {
+      "name": "Skillebekk",
+      "address": "Skillebekk",
+      "capacity": 15,
+      "location": {
+        "lat": 59.912793405455375,
+        "long": 10.710103028570302
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 10,
+      "numDocksAvailable": 5
+    }
+  },
+  {
+    "id": "453",
+    "info": {
+      "name": "Frogner Stadion",
+      "address": "Frogner Stadion",
+      "capacity": 36,
+      "location": {
+        "lat": 59.92753764682686,
+        "long": 10.710262803261259
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 16,
+      "numDocksAvailable": 20
+    }
+  },
+  {
+    "id": "466",
+    "info": {
+      "name": "Ullevålsalléen",
+      "address": "Ullevålsalléen",
+      "capacity": 15,
+      "location": {
+        "lat": 59.937913,
+        "long": 10.73048
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 0,
+      "numDocksAvailable": 15
+    }
+  },
+  {
+    "id": "469",
+    "info": {
+      "name": "Studentparlamentet",
+      "address": "Studentparlamentet",
+      "capacity": 30,
+      "location": {
+        "lat": 59.920852,
+        "long": 10.733357
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 3,
+      "numDocksAvailable": 27
+    }
+  },
+  {
+    "id": "416",
+    "info": {
+      "name": "Tannlegehøyskolen",
+      "address": "Geitmyrsveien 54",
+      "capacity": 15,
+      "location": {
+        "lat": 59.932383,
+        "long": 10.741475
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 0,
+      "numDocksAvailable": 15
+    }
+  },
+  {
+    "id": "391",
+    "info": {
+      "name": "St. Hanshaugen park vest",
+      "address": "Colletts gate 31",
+      "capacity": 20,
+      "location": {
+        "lat": 59.9268706,
+        "long": 10.7384634
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 0,
+      "numDocksAvailable": 19
+    }
+  },
+  {
+    "id": "389",
+    "info": {
+      "name": "Pilestredet Studenthus",
+      "address": "Pilestredet 38",
+      "capacity": 18,
+      "location": {
+        "lat": 59.9205528,
+        "long": 10.7342854
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 2,
+      "numDocksAvailable": 16
+    }
+  },
+  {
+    "id": "470",
+    "info": {
+      "name": "St. Hanshaugen park nord",
+      "address": "Geitmyrsveien 35A",
+      "capacity": 15,
+      "location": {
+        "lat": 59.92979845370007,
+        "long": 10.743540765932096
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 0,
+      "numDocksAvailable": 15
+    }
+  },
+  {
+    "id": "384",
+    "info": {
+      "name": "Vår Frelsers gravlund",
+      "address": "Ullevålsveien 9",
+      "capacity": 18,
+      "location": {
+        "lat": 59.91944043984847,
+        "long": 10.7437646218726
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 0,
+      "numDocksAvailable": 17
+    }
+  },
+  {
+    "id": "425",
+    "info": {
+      "name": "Adamstuen",
+      "address": "Adamstuen",
+      "capacity": 8,
+      "location": {
+        "lat": 59.932792,
+        "long": 10.734457
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 0,
+      "numDocksAvailable": 8
+    }
+  },
+  {
+    "id": "411",
+    "info": {
+      "name": "Hasle Torg",
+      "address": "Hasle Torg, Grenseveien 54",
+      "capacity": 24,
+      "location": {
+        "lat": 59.923240042155456,
+        "long": 10.792831438028703
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 6,
+      "numDocksAvailable": 17
+    }
+  },
+  {
+    "id": "598",
+    "info": {
+      "name": "Sofienbergparken nord",
+      "address": "Helgesens gate 58",
+      "capacity": 33,
+      "location": {
+        "lat": 59.923229,
+        "long": 10.766171
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 15,
+      "numDocksAvailable": 18
+    }
+  },
+  {
+    "id": "444",
+    "info": {
+      "name": "AHO",
+      "address": "Arkitektur og Designhøgskolen i Oslo",
+      "capacity": 20,
+      "location": {
+        "lat": 59.925265,
+        "long": 10.750462
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 11,
+      "numDocksAvailable": 9
+    }
+  },
+  {
+    "id": "447",
+    "info": {
+      "name": "Kværnerbyen",
+      "address": "Smeltedigelen 1",
+      "capacity": 30,
+      "location": {
+        "lat": 59.904473,
+        "long": 10.786167
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 4,
+      "numDocksAvailable": 25
+    }
+  },
+  {
+    "id": "408",
+    "info": {
+      "name": "Tøyen skole",
+      "address": "Ringgata 2A",
+      "capacity": 15,
+      "location": {
+        "lat": 59.914943,
+        "long": 10.773977
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 1,
+      "numDocksAvailable": 13
+    }
+  },
+  {
+    "id": "737",
+    "info": {
+      "name": "Munkegata",
+      "address": "Oslo gate 1B",
+      "capacity": 24,
+      "location": {
+        "lat": 59.908255,
+        "long": 10.7678
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 12,
+      "numDocksAvailable": 11
+    }
+  },
+  {
+    "id": "432",
+    "info": {
+      "name": "St. Hanshaugen park sør",
+      "address": "Knud Knudsens Plass",
+      "capacity": 12,
+      "location": {
+        "lat": 59.924821,
+        "long": 10.739909
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 0,
+      "numDocksAvailable": 12
+    }
+  },
+  {
+    "id": "401",
+    "info": {
+      "name": "Lille Schous plass",
+      "address": "Schous Plass.",
+      "capacity": 6,
+      "location": {
+        "lat": 59.920259,
+        "long": 10.760629
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 5,
+      "numDocksAvailable": 0
+    }
+  },
+  {
+    "id": "452",
+    "info": {
+      "name": "Vippetangen vest",
+      "address": "Vippetangen",
+      "capacity": 30,
+      "location": {
+        "lat": 59.903989,
+        "long": 10.740627
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 6,
+      "numDocksAvailable": 24
+    }
+  },
+  {
+    "id": "392",
+    "info": {
+      "name": "Sjøsiden ved fontenen",
+      "address": "Christian Fredriks Plass",
+      "capacity": 50,
+      "location": {
+        "lat": 59.910180852633516,
+        "long": 10.751698750995615
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 19,
+      "numDocksAvailable": 30
+    }
+  },
+  {
+    "id": "481",
+    "info": {
+      "name": "Rådhusgata",
+      "address": "Rådhusgata",
+      "capacity": 42,
+      "location": {
+        "lat": 59.910924,
+        "long": 10.736215
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 8,
+      "numDocksAvailable": 34
+    }
+  },
+  {
+    "id": "495",
+    "info": {
+      "name": "Vaterlandsparken",
+      "address": "Vaterlandsparken",
+      "capacity": 41,
+      "location": {
+        "lat": 59.91351552854147,
+        "long": 10.757334670552268
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 18,
+      "numDocksAvailable": 22
+    }
+  },
+  {
+    "id": "478",
+    "info": {
+      "name": "Jernbanetorget",
+      "address": "Fred Olsens gate 5",
+      "capacity": 15,
+      "location": {
+        "lat": 59.911901,
+        "long": 10.749929
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 2,
+      "numDocksAvailable": 12
+    }
+  },
+  {
+    "id": "448",
+    "info": {
+      "name": "Oslo Plaza",
+      "address": "Oslo Plaza",
+      "capacity": 9,
+      "location": {
+        "lat": 59.91218291295141,
+        "long": 10.7544337247013
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 0,
+      "numDocksAvailable": 8
+    }
+  },
+  {
+    "id": "414",
+    "info": {
+      "name": "Kontraskjæret",
+      "address": "Rådhusgata 32",
+      "capacity": 12,
+      "location": {
+        "lat": 59.910242,
+        "long": 10.73857
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 8,
+      "numDocksAvailable": 4
+    }
+  },
+  {
+    "id": "476",
+    "info": {
+      "name": "Edvard Storms gate",
+      "address": "Pilestredet Edvard Storms",
+      "capacity": 20,
+      "location": {
+        "lat": 59.919111,
+        "long": 10.736179
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 5,
+      "numDocksAvailable": 15
+    }
+  },
+  {
+    "id": "445",
+    "info": {
+      "name": "Sjølyst",
+      "address": "Drammensveien 161 B",
+      "capacity": 18,
+      "location": {
+        "lat": 59.921673,
+        "long": 10.67666
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 11,
+      "numDocksAvailable": 7
+    }
+  },
+  {
+    "id": "748",
+    "info": {
+      "name": "Hydroparken",
+      "address": "Hydroparken",
+      "capacity": 30,
+      "location": {
+        "lat": 59.914145,
+        "long": 10.715505
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 0,
+      "numDocksAvailable": 30
+    }
+  },
+  {
+    "id": "473",
+    "info": {
+      "name": "Majorstuveien",
+      "address": "Majorstuveien",
+      "capacity": 9,
+      "location": {
+        "lat": 59.926697,
+        "long": 10.716195
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 5,
+      "numDocksAvailable": 4
+    }
+  },
+  {
+    "id": "383",
+    "info": {
+      "name": "Arkitekt Rivertz Plass",
+      "address": "Arkitekt Rivertz Plass",
+      "capacity": 30,
+      "location": {
+        "lat": 59.934936,
+        "long": 10.749466
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 12,
+      "numDocksAvailable": 17
+    }
+  },
+  {
+    "id": "480",
+    "info": {
+      "name": "Helga Helgesens plass",
+      "address": "Helga Helgesens plass",
+      "capacity": 25,
+      "location": {
+        "lat": 59.9121109,
+        "long": 10.7661939
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 24,
+      "numDocksAvailable": 0
+    }
+  },
+  {
+    "id": "421",
+    "info": {
+      "name": "Alexander Kiellands Plass",
+      "address": "Alexander Kiellands Plass",
+      "capacity": 25,
+      "location": {
+        "lat": 59.92806670615684,
+        "long": 10.751202636819613
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 20,
+      "numDocksAvailable": 4
+    }
+  },
+  {
+    "id": "746",
+    "info": {
+      "name": "Bygdøy allé",
+      "address": "Bygdøy allé",
+      "capacity": 12,
+      "location": {
+        "lat": 59.919001,
+        "long": 10.692321
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 9,
+      "numDocksAvailable": 3
+    }
+  },
+  {
+    "id": "378",
+    "info": {
+      "name": "Colosseum Kino",
+      "address": "Colosseum",
+      "capacity": 12,
+      "location": {
+        "lat": 59.92984300295666,
+        "long": 10.711284727205708
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 0,
+      "numDocksAvailable": 12
+    }
+  },
+  {
+    "id": "417",
+    "info": {
+      "name": "Uranienborgparken",
+      "address": "Uranienborgparken",
+      "capacity": 15,
+      "location": {
+        "lat": 59.922485,
+        "long": 10.720896
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 5,
+      "numDocksAvailable": 10
+    }
+  },
+  {
+    "id": "427",
+    "info": {
+      "name": "Briskeby",
+      "address": "Briskeby",
+      "capacity": 15,
+      "location": {
+        "lat": 59.920218,
+        "long": 10.717978
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 4,
+      "numDocksAvailable": 10
+    }
+  },
+  {
+    "id": "418",
+    "info": {
+      "name": "Norsk Folkemuseum",
+      "address": "Folkemuseet",
+      "capacity": 12,
+      "location": {
+        "lat": 59.907674,
+        "long": 10.686843
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 0,
+      "numDocksAvailable": 12
+    }
+  },
+  {
+    "id": "413",
+    "info": {
+      "name": "Majorstuen",
+      "address": "Kirkeveien 59",
+      "capacity": 18,
+      "location": {
+        "lat": 59.929045,
+        "long": 10.716926
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 2,
+      "numDocksAvailable": 16
+    }
+  },
+  {
+    "id": "486",
+    "info": {
+      "name": "Blindern Studenthus",
+      "address": "Blindernveien 2",
+      "capacity": 24,
+      "location": {
+        "lat": 59.93522040770026,
+        "long": 10.726476622250004
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 0,
+      "numDocksAvailable": 24
+    }
+  },
+  {
+    "id": "471",
+    "info": {
+      "name": "Marienlyst",
+      "address": "Suhms Gate 46A",
+      "capacity": 12,
+      "location": {
+        "lat": 59.932432498521095,
+        "long": 10.721762294477472
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 5,
+      "numDocksAvailable": 7
+    }
+  },
+  {
+    "id": "597",
+    "info": {
+      "name": "Fredensborg",
+      "address": "Fredensborgveien 64",
+      "capacity": 15,
+      "location": {
+        "lat": 59.920995,
+        "long": 10.750358
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 5,
+      "numDocksAvailable": 10
+    }
+  },
+  {
+    "id": "739",
+    "info": {
+      "name": "Hammersborg Torg",
+      "address": "Møllergata 39",
+      "capacity": 20,
+      "location": {
+        "lat": 59.91652053839767,
+        "long": 10.749202233135232
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 3,
+      "numDocksAvailable": 15
+    }
+  },
+  {
+    "id": "382",
+    "info": {
+      "name": "Stensgata",
+      "address": "Theresesgate_Stensgata",
+      "capacity": 9,
+      "location": {
+        "lat": 59.92958561753996,
+        "long": 10.732839000000013
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 1,
+      "numDocksAvailable": 8
+    }
+  },
+  {
+    "id": "396",
+    "info": {
+      "name": "Kirkeristen",
+      "address": "Stortorvet 13",
+      "capacity": 24,
+      "location": {
+        "lat": 59.91300035973293,
+        "long": 10.746760585982287
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 4,
+      "numDocksAvailable": 20
+    }
+  },
+  {
+    "id": "735",
+    "info": {
+      "name": "Oslo Hospital",
+      "address": "Oslo Gate 39",
+      "capacity": 15,
+      "location": {
+        "lat": 59.90321254732584,
+        "long": 10.7673442932541
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 1,
+      "numDocksAvailable": 14
+    }
+  },
+  {
+    "id": "437",
+    "info": {
+      "name": "Sentrum Scene",
+      "address": "Sentrum Scene",
+      "capacity": 24,
+      "location": {
+        "lat": 59.91546786564256,
+        "long": 10.751140873016311
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 14,
+      "numDocksAvailable": 10
+    }
+  },
+  {
+    "id": "446",
+    "info": {
+      "name": "Bislett Stadion",
+      "address": "Bislett Stadion",
+      "capacity": 24,
+      "location": {
+        "lat": 59.925471317049954,
+        "long": 10.73121932213806
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 5,
+      "numDocksAvailable": 18
+    }
+  },
+  {
+    "id": "424",
+    "info": {
+      "name": "Birkelunden",
+      "address": "Seidluksgata 23",
+      "capacity": 10,
+      "location": {
+        "lat": 59.9256113,
+        "long": 10.760926
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 6,
+      "numDocksAvailable": 4
+    }
+  },
+  {
+    "id": "455",
+    "info": {
+      "name": "Sofienbergparken sør",
+      "address": "Sofienberggata 17",
+      "capacity": 12,
+      "location": {
+        "lat": 59.922337,
+        "long": 10.7617503
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 9,
+      "numDocksAvailable": 2
+    }
+  },
+  {
+    "id": "457",
+    "info": {
+      "name": "Trondheimsveien",
+      "address": "Trondheimsveien 64",
+      "capacity": 10,
+      "location": {
+        "lat": 59.9230577,
+        "long": 10.7717192
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 4,
+      "numDocksAvailable": 5
+    }
+  },
+  {
+    "id": "377",
+    "info": {
+      "name": "Tøyenparken",
+      "address": "Tøyenparken",
+      "capacity": 29,
+      "location": {
+        "lat": 59.915667,
+        "long": 10.7775665
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 2,
+      "numDocksAvailable": 26
+    }
+  },
+  {
+    "id": "738",
+    "info": {
+      "name": "Lodalen busstopp",
+      "address": "Konows gate 45",
+      "capacity": 12,
+      "location": {
+        "lat": 59.9034528,
+        "long": 10.777958
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 0,
+      "numDocksAvailable": 12
+    }
+  },
+  {
+    "id": "460",
+    "info": {
+      "name": "Botanisk Hage sør",
+      "address": "Jens Bjelkes gate 39B",
+      "capacity": 29,
+      "location": {
+        "lat": 59.915417698024385,
+        "long": 10.76933022142641
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 18,
+      "numDocksAvailable": 7
+    }
+  },
+  {
+    "id": "744",
+    "info": {
+      "name": "Hallénparken",
+      "address": "Johan Sverdrups Plass",
+      "capacity": 10,
+      "location": {
+        "lat": 59.9315302,
+        "long": 10.762169
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 7,
+      "numDocksAvailable": 3
+    }
+  },
+  {
+    "id": "485",
+    "info": {
+      "name": "Sommerfrydhagen",
+      "address": "Sommerfrydhagen",
+      "capacity": 21,
+      "location": {
+        "lat": 59.911453,
+        "long": 10.776072
+      }
+    },
+    "status": {
+      "installed": 1,
+      "renting": 1,
+      "returning": 1,
+      "reported": "2022-10-31T18:01:05Z",
+      "numBikesAvailable": 6,
+      "numDocksAvailable": 14
+    }
+  }
+]

@@ -25,7 +25,7 @@
     <template v-for="station in stationsWithPageNumber[currentPageNumber - 1]" :key="station.id">
       <div class="osg-grid osg-grid--gap-row">
         <div class="osg-grid__column--4 osg-color-bg-blue-dark osg-padding-2">
-          <div class="osg-full-height osg-flex osg-flex-justify-content-center osg-flex-align-items-center osg-color-text-white">
+          <div class="osg-full-height osg-flex osg-flex-justify-content-center osg-flex-align-items-center osg-color-text-white" data-testid="station-name">
             {{ station.info.name }}
           </div>
         </div>
