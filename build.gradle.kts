@@ -127,7 +127,7 @@ tasks {
 
     val buildClient: TaskProvider<Exec> by registering(Exec::class) {
         workingDir = file("city-bike-client")
-        commandLine = listOf("pnpm", "build")
+        commandLine = listOf("pnpm", "test:e2e")
     }
 
     val deleteDistFolder: TaskProvider<Delete> by registering(Delete::class) {
