@@ -93,7 +93,7 @@ export default {
           .reduce(
               (result, currentValue) => {
                 if (currentValue) {
-                  const pageNo = Math.floor(list.indexOf(currentValue) / 20)
+                  const pageNo = Math.floor(list.indexOf(currentValue) / 18)
 
                   if (result[pageNo]) {
                     result[pageNo].includes(currentValue) ? [] : result[pageNo].push(currentValue)

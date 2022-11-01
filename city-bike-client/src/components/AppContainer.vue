@@ -10,24 +10,75 @@
     </div>
     <PageHeader @search="searchParam" />
   </header>
-  <div class="osg-container">
-    <ShowList
-      :stations-and-statuses="searchedStationsAndStatuses"
-      :search-param="searchTerm"
-    />
+  <div class="osg-tabs">
+    <div
+      class="osg-tabs__triggers"
+      role="tablist"
+      aria-labelledby="tablist-1"
+    >
+      <button
+        id="tab-1"
+        class="osg-tabs__trigger"
+        role="tab"
+        aria-controls="tabpanel-1"
+        aria-selected="true"
+      >
+        Kart
+      </button>
+      <button
+        id="tab-2"
+        class="osg-tabs__trigger"
+        role="tab"
+        aria-controls="tabpanel-2"
+        aria-selected="false"
+        tabindex="-1"
+        data-testid="table-tab"
+      >
+        Tabell
+      </button>
+    </div>
+    <div class="osg-tabs__tabs">
+      <div
+        id="tabpanel-1"
+        role="tabpanel"
+        aria-labelledby="tab-1"
+        class="osg-tabs__tab osg-tabs__tab--active"
+      >
+        <ShowMap :stations-and-statuses="searchedStationsAndStatuses" />
+      </div>
+      <div
+        id="tabpanel-2"
+        role="tabpanel"
+        aria-labelledby="tab-2"
+        class="osg-tabs__tab"
+      >
+        <ShowList
+          tabindex="0"
+          :stations-and-statuses="searchedStationsAndStatuses"
+          :search-param="searchTerm"
+        />
+      </div>
+    </div>
   </div>
 </template>
 
 <script>
-import ShowList from "./ShowList.vue";
 import PageHeader from "./PageHeader.vue";
+import ShowList from "./ShowList.vue";
+import ShowMap from "./ShowMap.vue";
 import {config} from 'icefog'
+import {OsgTabs} from "styleguide/src/components/tabs/tabs";
 
 const host = config.isProd ? '' : 'http://localhost:8080'
+
+document.addEventListener("DOMContentLoaded", function () {
+  OsgTabs.init();
+});
 
 export default {
   name: "AppContainer",
   components: {
+    ShowMap,
     PageHeader,
     ShowList
   },
