@@ -1,3 +1,4 @@
+
 <template>
   <div>
     <div
@@ -56,6 +57,7 @@ export default {
         };
       },
     },
+    // eslint-disable-next-line vue/require-prop-types
     geoJson: {
       // Can't set type, as MapLibre accepts both an URL and an object
       default: null,
@@ -250,6 +252,7 @@ export default {
         return;
       }
 
+      // eslint-disable-next-line no-prototype-builtins
       if (!geoJson.hasOwnProperty("type")) {
         return;
       }
@@ -366,11 +369,13 @@ export default {
       } else if (geoJson.type === "Feature") {
         coordinates = this.$_getCoordinatesForGeoJsonObject(geoJson.geometry);
       } else if (geoJson.type === "GeometryCollection") {
+        // eslint-disable-next-line no-redeclare
         var _this = this; // Scope this, bobby!
         coordinates = geoJson.geometries.reduce((part, geometryCollection) => {
           return part.concat(_this.$_getCoordinatesForGeoJsonObject(geometryCollection));
         }, []);
       } else if (geoJson.type === "FeatureCollection") {
+        // eslint-disable-next-line no-redeclare
         var _this = this; // Scope this, bobby!
         coordinates = geoJson.features.reduce((part, featureCollection) => {
           return part.concat(_this.$_getCoordinatesForGeoJsonObject(featureCollection));
