@@ -5,19 +5,15 @@ import arrow.core.right
 import city.bike.status.app.DomainError.BackendFatalError
 import city.bike.status.app.ErrorMessage
 import city.bike.status.app.ErrorOr
-import city.bike.status.app.JacksonObjectMapper
 import city.bike.status.registerPlugins
 import city.bike.status.testHttpClient
 import io.kotest.core.spec.style.FunSpec
 import io.kotest.matchers.shouldBe
-import io.ktor.client.HttpClient
 import io.ktor.client.call.body
 import io.ktor.client.request.get
 import io.ktor.client.statement.HttpResponse
-import io.ktor.http.ContentType.Application.Json
 import io.ktor.http.HttpStatusCode.Companion.InternalServerError
 import io.ktor.http.HttpStatusCode.Companion.OK
-import io.ktor.serialization.jackson.JacksonConverter
 import io.ktor.server.testing.testApplication
 import java.time.Instant
 
@@ -145,13 +141,7 @@ class RealTimeRouteTest : FunSpec({
 
             routing { stationStatus(apiClient) }
 
-            val client: HttpClient = createClient {
-                install(io.ktor.client.plugins.contentnegotiation.ContentNegotiation) {
-                    register(Json, JacksonConverter(objectmapper = JacksonObjectMapper.objectMapper))
-                }
-            }
-
-            val response: HttpResponse = client.get("/station-status")
+            val response: HttpResponse = testHttpClient().get("/station-status")
             val content: List<StationAndStatus> = response.body()
 
             response.status shouldBe OK
