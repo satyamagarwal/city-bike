@@ -42,7 +42,7 @@
         id="vue-pagination"
         class="osg-full-height osg-flex osg-flex-justify-content-center osg-flex-align-items-center"
       >
-        <Pagination
+        <OsgPagination
           aria-label="Pagination, first page"
           :disable-current-index-btn="false"
           :current-index="currentPageNumber"
@@ -59,7 +59,7 @@
 </template>
 
 <script>
-import Pagination from "./Pagination.vue"
+import OsgPagination from "./external/OsgPagination.vue"
 import TableHeading from "./TableHeading.vue";
 import DataUnavailable from "./DataUnavailable.vue";
 
@@ -68,7 +68,7 @@ export default {
   components: {
     DataUnavailable,
     TableHeading,
-    Pagination
+    OsgPagination
   },
   props: {
     searchParam: {

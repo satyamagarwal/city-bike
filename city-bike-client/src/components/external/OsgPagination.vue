@@ -1,23 +1,42 @@
 <template>
-  <nav class="osg-pagination" :aria-label="ariaLabel">
-    <button class="osg-pagination__previous" v-show="showArrows && currentIndex > 1"
-            @click.prevent="paginate(currentIndex - 1)">
+  <nav
+    class="osg-pagination"
+    :aria-label="ariaLabel"
+  >
+    <button
+      v-show="showArrows && currentIndex > 1"
+      class="osg-pagination__previous"
+      @click.prevent="paginate(currentIndex - 1)"
+    >
       <span class="osg-sr-only">{{ i18n.previousBtn }} {{ currentIndex - 1 }}</span>
     </button>
-    <template v-for="index in totalPages" :key="index">
-      <button v-if="showItem(index)" class="osg-pagination__item"
-              v-bind:class="{ 'osg-pagination__item--current': index === currentIndex, 'osg-pagination__item--rectangle': index >= 100 }"
-              :key="index" :disabled="index === currentIndex && disableCurrentIndexBtn"
-              @click.prevent="paginate(index)"
-              v-bind:data-testid="[index === currentIndex ? 'current-index' : `index-${index}`]"
+    <template
+      v-for="index in totalPages"
+      :key="index"
+    >
+      <button
+        v-if="showItem(index)"
+        :key="index"
+        class="osg-pagination__item"
+        :class="{ 'osg-pagination__item--current': index === currentIndex, 'osg-pagination__item--rectangle': index >= 100 }"
+        :disabled="index === currentIndex && disableCurrentIndexBtn"
+        :data-testid="[index === currentIndex ? 'current-index' : `index-${index}`]"
+        @click.prevent="paginate(index)"
       >
         <span class="osg-sr-only">{{ i18n.showPage }} {{ index }}</span>
         {{ index }}
       </button>
-      <span v-else class="osg-pagination__spacer" aria-hidden="true">&hellip;</span>
+      <span
+        v-else
+        class="osg-pagination__spacer"
+        aria-hidden="true"
+      >&hellip;</span>
     </template>
-    <button class="osg-pagination__next" v-show="showArrows && currentIndex < totalPages"
-            @click.prevent="paginate(currentIndex + 1)">
+    <button
+      v-show="showArrows && currentIndex < totalPages"
+      class="osg-pagination__next"
+      @click.prevent="paginate(currentIndex + 1)"
+    >
       <span class="osg-sr-only">{{ i18n.nextBtn }} {{ currentIndex + 1 }}</span>
     </button>
   </nav>
@@ -26,7 +45,6 @@
 <script>
 export default {
   name: "OsgPagination",
-  emits: ['paginate'],
   props: {
     ariaLabel: {
       type: String,
@@ -67,6 +85,7 @@ export default {
       },
     },
   },
+  emits: ['paginate'],
   computed: {
     limitMax: function () {
       return this.currentIndex + this.limit;
