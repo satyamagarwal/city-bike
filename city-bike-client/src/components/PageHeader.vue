@@ -12,13 +12,15 @@
         <div class="osg-grid__column--7">
           <div class="osg-full-height osg-flex osg-flex-justify-content-flex-end osg-flex-align-items-center">
             <input
+              v-model="value"
               class="osg-input__input"
               type="text"
               autocomplete="on"
               aria-label="Label text"
               placeholder="Søk etter et address"
               data-testid="search-address"
-              @input="(e) => searchParam(e.target.value)"
+              @input="searchParam()"
+              @change="searchParam()"
             >
           </div>
         </div>
@@ -31,9 +33,19 @@
 export default {
   name: "PageHeader",
   emits: ['search'],
+  data() {
+    return {
+      value: ''
+    };
+  },
+  watch: {
+    value() {
+      this.$emit("search", this.value);
+    }
+  },
   methods: {
-    searchParam: function (value) {
-      this.$emit("search", value);
+    searchParam() {
+      this.$emit("search", this.value)
     }
   }
 }
