@@ -15,6 +15,11 @@
     * Husk at `JAVA_HOME` bør settes til å bruke `jdk18`.
 * Clone prosjekt lokalt med `git clone git@github.com:satyamagarwal/city-bike.git`.
 
+## Kjøre demo
+
+* Last ned [jar-file](/media/city-bike-all.jar)
+* Kjør `java "-Dlog4j2.level=INFO" "-Denv=prod" -jar <download-path>/city-bike-all.jar`
+
 ### Kjøre app med fat jar
 
 * `cd <path-to-dir-holding-repository>/city-bike`
