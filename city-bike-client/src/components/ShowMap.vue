@@ -21,7 +21,7 @@
 
 <script>
 import DataUnavailable from "./DataUnavailable.vue";
-import OsgMap from "styleguide/src/components/map/map.vue";
+import OsgMap from "./external/OsgMap.vue";
 
 export default {
   name: "ShowMap",
