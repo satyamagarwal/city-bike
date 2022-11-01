@@ -115,7 +115,7 @@ export default {
             .defaultStationsAndStatuses
             .filter((stationAndStatus) =>
                 stationAndStatus.info.name.toLocaleLowerCase().includes(lowerCasedSearch) ||
-                stationAndStatus.info.address.includes(lowerCasedSearch)
+                stationAndStatus.info.address.toLocaleLowerCase().includes(lowerCasedSearch)
             )
       } else {
         this.searchTerm = ''

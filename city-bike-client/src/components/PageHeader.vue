@@ -19,8 +19,8 @@
               aria-label="Label text"
               placeholder="Søk etter et address"
               data-testid="search-address"
-              @input="searchParam()"
-              @change="searchParam()"
+              @input="searchParam"
+              @change="searchParam"
             >
           </div>
         </div>
