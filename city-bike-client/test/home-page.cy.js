@@ -24,6 +24,7 @@ describe('home page', () => {
     )
 
     cy.visit('/')
+    cy.get('[data-testid="table-tab"]').click()
 
     cy.get('[data-testid="station-name"]').contains('Adamstuen')
     cy.get('[data-testid="current-index"]').contains('1')
@@ -41,6 +42,7 @@ describe('home page', () => {
     )
 
     cy.visit('/')
+    cy.get('[data-testid="table-tab"]').click()
 
     cy.get('[data-testid="search-address"]').type('bjørvika')
     cy.get('[data-testid="station-name"]').contains('Bjørvika')
