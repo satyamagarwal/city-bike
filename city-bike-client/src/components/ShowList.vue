@@ -1,91 +1,93 @@
 <template>
-  <div class="osg-grid osg-grid--gap-row osg-margin-bottom-2">
-    <div class="osg-grid__column--4 osg-color-bg-blue-dark">
-      <div class="osg-full-height osg-flex osg-flex-justify-content-center osg-flex-align-items-center osg-color-text-white osg-text-size-india">
-        Stasjons navn
-      </div>
-    </div>
-    <div class="osg-grid__column--4 osg-color-bg-blue-light">
-      <div class="osg-full-height osg-flex osg-flex-justify-content-center osg-flex-align-items-center osg-color-text-black osg-text-size-india">
-        Adress
-      </div>
-    </div>
-    <div class="osg-grid__column--2 osg-color-bg-blue-dark">
-      <div class="osg-full-height osg-flex osg-flex-justify-content-center osg-flex-align-items-center osg-color-text-white osg-text-size-india">
-        Tilgjenglige sykkler
-      </div>
-    </div>
-    <div class="osg-grid__column--2 osg-color-bg-blue-light">
-      <div class="osg-full-height osg-flex osg-flex-justify-content-center osg-flex-align-items-center osg-color-text-black osg-text-size-india">
-        Tilgjenglige låser
-      </div>
-    </div>
-  </div>
+  <TableHeading />
   <template v-if="stationsWithPageNumber.length > 0">
-    <template v-for="station in stationsWithPageNumber[currentPageNumber - 1]" :key="station.id">
+    <template
+      v-for="station in stationsWithPageNumber[currentPageNumber - 1]"
+      :key="station.id"
+    >
       <div class="osg-grid osg-grid--gap-row">
         <div class="osg-grid__column--4 osg-color-bg-blue-dark osg-padding-2">
-          <div class="osg-full-height osg-flex osg-flex-justify-content-center osg-flex-align-items-center osg-color-text-white" data-testid="station-name">
+          <div
+            class="osg-full-height osg-flex osg-flex-justify-content-center osg-flex-align-items-center osg-color-text-white"
+            data-testid="station-name"
+          >
             {{ station.info.name }}
           </div>
         </div>
         <div class="osg-grid__column--4 osg-color-bg-blue-light">
-          <div class="osg-full-height osg-flex osg-flex-justify-content-center osg-flex-align-items-center osg-color-text-black">
+          <div
+            class="osg-full-height osg-flex osg-flex-justify-content-center osg-flex-align-items-center osg-color-text-black"
+          >
             {{ station.info.address }}
           </div>
         </div>
         <div class="osg-grid__column--2 osg-color-bg-blue-dark">
-          <div class="osg-full-height osg-flex osg-flex-justify-content-center osg-flex-align-items-center osg-color-text-white">
+          <div
+            class="osg-full-height osg-flex osg-flex-justify-content-center osg-flex-align-items-center osg-color-text-white"
+          >
             {{ station.status.numBikesAvailable }}
           </div>
         </div>
         <div class="osg-grid__column--2 osg-color-bg-blue-light">
-          <div class="osg-full-height osg-flex osg-flex-justify-content-center osg-flex-align-items-center osg-color-text-black">
+          <div
+            class="osg-full-height osg-flex osg-flex-justify-content-center osg-flex-align-items-center osg-color-text-black"
+          >
             {{ station.status.numDocksAvailable }}
           </div>
         </div>
       </div>
     </template>
     <div class="osg-grid__column--4 osg-padding-2">
-      <div id="vue-pagination" class="osg-full-height osg-flex osg-flex-justify-content-center osg-flex-align-items-center">
-        <Pagination aria-label="Pagination, first page" :disable-current-index-btn="false" :current-index="currentPageNumber"
-                    :total-pages="totalPages" v-on:paginate="(num) => currentPageNumber = num" :limit="10">
-        </Pagination>
+      <div 
+        id="vue-pagination"
+        class="osg-full-height osg-flex osg-flex-justify-content-center osg-flex-align-items-center"
+      >
+        <Pagination
+          aria-label="Pagination, first page"
+          :disable-current-index-btn="false"
+          :current-index="currentPageNumber"
+          :total-pages="totalPages"
+          :limit="10"
+          @paginate="(num) => currentPageNumber = num"
+        />
       </div>
     </div>
   </template>
   <template v-else>
-    <div class="osg-grid osg-grid--gap-row">
-      <div class="osg-grid__column--12 osg-padding-2">
-        <div class="osg-full-height osg-flex osg-flex-justify-content-center osg-flex-align-items-center osg-color-text-red">
-          Data er ikke tilgjengelig!
-        </div>
-      </div>
-    </div>
+    <DataUnavailable />
   </template>
 </template>
 
 <script>
-import Pagination from "./pagination.vue"
+import Pagination from "./Pagination.vue"
+import TableHeading from "./TableHeading.vue";
+import DataUnavailable from "./DataUnavailable.vue";
 
 export default {
   name: "ShowList",
-  props: {
-    searchParam: String,
-    stationsAndStatuses: Array
-  },
   components: {
+    DataUnavailable,
+    TableHeading,
     Pagination
+  },
+  props: {
+    searchParam: {
+      type: String,
+      default: ''
+    },
+    stationsAndStatuses: {
+      type: Array,
+      default() { return [] }
+    }
   },
   data() {
     return {
-      search: '',
       pageNumber: 1
     }
   },
   computed: {
     stationsWithPageNumber() {
-      const list = this.filteredStations()
+      const list = this.stationsAndStatuses
 
       return list
           .reduce(
@@ -117,23 +119,11 @@ export default {
       set(newPageNumber) {
         this.totalPages >= newPageNumber ? this.pageNumber = newPageNumber : this.pageNumber = 1
       }
-    }
+    },
   },
   watch: {
     searchParam() {
       this.currentPageNumber = 1
-    }
-  },
-  methods: {
-    filteredStations() {
-      const lowerCasedSearch = this.searchParam.toLocaleLowerCase()
-      return this
-          .stationsAndStatuses
-          .filter((stationAndStatus) =>
-              stationAndStatus.info.name.toLocaleLowerCase().includes(lowerCasedSearch) ||
-              stationAndStatus.info.address.includes(lowerCasedSearch)
-          )
-          .sort((station1, station2) => station1.info.name.localeCompare(station2.info.name))
     }
   }
 }
