@@ -60,7 +60,7 @@ export default {
                   <br>
                   <strong>Tilgjenglige sykkler: </strong><span>${status.numBikesAvailable}</span>
                   <br>
-                  <strong>Tilgjenglige låser: </strong><span>${status.numBikesAvailable}</span>
+                  <strong>Tilgjenglige låser: </strong><span>${status.numDocksAvailable}</span>
                   <br>
                   `
               }
