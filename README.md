@@ -2,7 +2,7 @@
 
 ## Forhåndsvising
 
-![Bilde](/media/app-preview.png?raw=true)
+![Bilde](/media/demo.gif?raw=true)
 
 ## Forutsetninger :
 
