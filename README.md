@@ -19,6 +19,7 @@
 
 * Last ned [jar-file](/media/city-bike-all.jar)
 * Kjør `java "-Dlog4j2.level=INFO" "-Denv=prod" -jar <download-path>/city-bike-all.jar`
+* Besøk http://localhost:8080
 
 ### Kjøre app med fat jar
 
